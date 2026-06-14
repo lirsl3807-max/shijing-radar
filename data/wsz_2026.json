@@ -1,0 +1,620 @@
+{
+  "query": {
+    "q": "文史哲",
+    "field": "source",
+    "from": 2026,
+    "to": 2026,
+    "types": [
+      "journal"
+    ],
+    "sort": "date",
+    "size": 46
+  },
+  "total_hits": 46,
+  "fetched": 46,
+  "results": [
+    {
+      "seq": 1,
+      "title": "坚守初心 引领创新 勇担新时代学术使命——重温习近平总书记给《文史哲》编辑部全体编辑人员重要回信",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0I_HvwgNutlGGninRiYvdS5dWsa6HnFYZlmDsXGlsH0mBGvb1mFGlGIgDTeGpoi5VRpAZ0B9AP1SwakXvvW9fip8DSHULO7T3HWctMCFUDntX2nxFqNRb7m0t48RLjlXBp80opeg-IMi-AXV-TxjVnS-Ubm1btSCrQV09FHreb4Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王学典"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 47
+    },
+    {
+      "seq": 2,
+      "title": "“两个结合”与中国哲学社会科学自主知识体系建构",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0I_HvwgNutlGGninRiYvdS5dWsa6HnFYZlmDsXGlsH0mBGvb1mFGlGL93sJrM9dTX6Us2XCeLCsTdk50kemo0f_1epYAkMVvBeqJRcjr8PkAoDYCuS6_GqA0IVTqQ9I1Q6Dgmxb7T67qyUCwDJU_du5xO-G39e7CqzNYaLFDAY7Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张志强"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 327
+    },
+    {
+      "seq": 3,
+      "title": "再论蒙文通晚年的理学思想——以《理学札记补遗》为中心",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK19yvLBPy3n27vsb1o20o1Nu9RfzOhN2-81psQrW9efDsgqPIKcgtBn6QNMkQuV8IV7p6EYC4nHrDVtM5l4Sbg8dNUKjc1G466iPOo_xBRRYrZ1BgAzSafJTp-SpjQTw5zYcItXV9i8W_V81i70NROYiruBUgNYANA4HFnpL1oU5w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈来"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 50
+    },
+    {
+      "seq": 4,
+      "title": "明清田宅山场诉讼中的用图与读图",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK24aBiQHOzmHQmFz2DeYBwAJC91pY4Nz75gh47JqeDwHnjouD4zXDkUsGZ0TWZ8Viwp2SNGmmOn7JlWNr8BXcvFZ83USgepp7o8AOb9t2XXJ3-wU153CKRvzrGuOHhs-wy8FyMEIYLj3mS9vpI45SciYDp1e59gzou7Voac_I2ayw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "杜正贞"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 46
+    },
+    {
+      "seq": 5,
+      "title": "族产兴学：民国宗族产权的“公私”之辨",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2CAHxXDxCFcCglseHq78wrqkpoeJSxYA-W5KVy8EzkPv4VBNfY9YPi0YOkaRqlvSefuTA0P1qdCND3BI0pol_JiYlT94bRrtXkMFmipsbXmraVdTPJDf5WnaXrJmzGBrIzGb7JjMsGyCa5jfT9jmcmEdKZrQ6uLgAALwhkE5Po7Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈月圆",
+        "龙登高"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 51
+    },
+    {
+      "seq": 6,
+      "title": "2025年度“中国人文学术十大热点”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2CAHxXDxCFcCglseHq78wrqkpoeJSxYA-W5KVy8EzkPv4VBNfY9YPi0LhdyIgCz4KKhC1UpmAS8vSc5BHQm_7v3hwRL2RBm0OHnevgXvOM72vfQhiUAGaxOitqODsjlkMXR1_4EV3W2CoHEhXUIPLI44e6DTnFNbI2nGQ7cQcQ1Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 41
+    },
+    {
+      "seq": 7,
+      "title": "传统乡村社会研究与中国史学传统的创造性转化",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2CAHxXDxCFcCglseHq78wrqkpoeJSxYA-W5KVy8EzkPv4VBNfY9YPiW_Lh1pBMGclai5v0vCvwYO_Os_cLHUTM0SoA0DED1ztk154-eUQf5LNlXX1mZ1WrAVKZ20pB8GooMcNRsbgt6J5zln5i1pLKe7o1UXMfyRzzpWO5zD_OtQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈春声"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 80
+    },
+    {
+      "seq": 8,
+      "title": "作为秩序哲学的中国哲学",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2CAHxXDxCFcCglseHq78wrqkpoeJSxYA-W5KVy8EzkPv4VBNfY9YPi6z71KZ4lq5BGLLhXpKZIBtgpFMYyd7_BFrMcta7UU7qbKXW62AJbHMryV3YuoaqWk1mayYZqXkCJhsvAZw5ttUKj-K33h4u8CQNTaPN4Tj3DOow_Dj4SSw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王博"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 133
+    },
+    {
+      "seq": 9,
+      "title": "现行学科体系下自主知识体系创新的若干思考——兼及我们应当建设什么样的古典学",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2QF9sNfKlP8Qh1BQPaS0NxdtALbAhb2cTwgr5btGgBkuXGD8R-jL67n3b6M0hCI4hsRZLhItZwq45aj7fxW9qAI1Br1adkxFt8S2IL8j2XMGlszogXw-GRWjy8cs7y_MtLkj5tZWZFEGIFqPM3WwxJZxrVUQNC_cNRhNdDXv_6mQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "仲伟民"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 78
+    },
+    {
+      "seq": 10,
+      "title": "构建中国哲学社会科学自主知识体系的四个问题——以冯契“智慧说”为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2QF9sNfKlP8Qh1BQPaS0NxdtALbAhb2cTwgr5btGgBkuXGD8R-jL6700N6C7jmhvmg1E6kNB_uMy7y3jO_j7S84vAewVVAfUekHuCq1cDRRxDISlE9NtiDi6KtefQMS6orPFWcVdGPPYkNpNvWPHtVBN_pl2fouJsFOHcQ5UwgAQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈卫平"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 133
+    },
+    {
+      "seq": 11,
+      "title": "哲学的“中国解”与自主知识体系建构刍议",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0ii1rlf7TDfKB_7txznw1bf8TTeQAQqmXwlr20C2M_NkT1OsJA3B-jXLGxHtT9jmiql24fer2hkcjBwDfJK1fiWvJdSMXIZrP-kIAZ2bcPNMNP8u9fulkU-Ds1c_usn0GpVRUxkrz38sNo9SFs-gtQBRsRVc0MnP0kVLK3Fm26HA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "何中华"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 78
+    },
+    {
+      "seq": 12,
+      "title": "被选择与被遗忘的声音——鲁迅“出口”能否以及如何“成章”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0ii1rlf7TDfKB_7txznw1bf8TTeQAQqmXwlr20C2M_NkT1OsJA3B-j7hT9MFWo4K8H0_Z_pDgapgdrXFy7x1UjqYjzQcxsLtO_h06-eRqC01X0AoQhQaOJuGgHTDS3csnO6dBkQG-8_BlNE1ltge-mNFLPDcytiLhAfPoO0tC4Dg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈平原"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 80
+    },
+    {
+      "seq": 13,
+      "title": "如何从神话发现社会——闻一多神话研究的社会学视野",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3MeF_C7rXqCYuhDEfoIeB8-3OAmWY6ibC2TZoNh9arhGFr6EKfWcXs_vU2UOBHoAQOmv2n93ZH0u5Wvy3ediFGBw2pmfM9Wqty_oh1DCr1Z9n5h4pA61zPfiBhAq5MQxxo0cy8QlW_FpjnY7tF4H-2VcK-kfT3agkQSq3b-3m9Yw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘奎"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 82
+    },
+    {
+      "seq": 14,
+      "title": "现代内外与“现代新儒学”释词",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3MeF_C7rXqCYuhDEfoIeB8-3OAmWY6ibC2TZoNh9arhGFr6EKfWcXsqtTW7Sxd35jjQ-41GOLOP6oHazVcqKlqFdIbTdeWKB-W2546zgZIesDgT-7yZ0X1ixVnDnR9vIPXK7bu5WhdkCQCj1-Got4vrLNY_ZgSPWeaaiKk_A9ahQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "任剑涛"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 62
+    },
+    {
+      "seq": 15,
+      "title": "土地登记、地权市场与赋役征派：清代山西里甲变动的多重面向",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1jEt4VfTwdNrOdYr_tib8rkZ0OVuD6Sj7CjUUqHLC5_2-G4Cid4fvEEzfRKp6g6HKcbTjV4XJQXyvvvNQJNTZK6HFbK5wRLCb8ZRQtYuASQO1r7ykVRF0BBW9CKMNn2td9s1AxQZWeD9rN9NWE9UK9sk-GankD2kruB-kd_ESGXA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王正华"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 49
+    },
+    {
+      "seq": 16,
+      "title": "“技术”还是“象征”：中国古代农书文本性质与功能意义再探析",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1jEt4VfTwdNrOdYr_tib8rkZ0OVuD6Sj7CjUUqHLC5_2-G4Cid4fvEoprKCyIPcLlhDksH7ahUcMbEMrJ-4wt1Pup2f-R-wjeS3UVgFr34uA9BqoA2KNmFVuUHyseNtbQR7_mGPa5yjBbFwMgM-zLcytYo_YAN5RydXb1tJ-UaZw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王加华"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 69
+    },
+    {
+      "seq": 17,
+      "title": "未期未遇的波颇与玄奘——兼论“贞观三年说”的由来",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Lu9yVSwZCU3tUr1xDbaBEPz--bP0-B8UJXraW1EMlTNw0jzqrnrGvc6i7EJ9po2qT8J6JCQvOtUL-qZnceASdBaS3OAHCRq6R0pjdE3hW-kJIOx44ZPHebRorP8WkfYsSrwOE4sHoXOGklOiYiV8oTGMhZMXo9rwV8WziExrUFw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘屹"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 38
+    },
+    {
+      "seq": 18,
+      "title": "学术期刊在中华民族现代文明建设中的历史责任——重温习近平总书记给《文史哲》编辑部全体编辑人员回信的体会",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Lu9yVSwZCU3tUr1xDbaBEPz--bP0-B8UJXraW1EMlTNw0jzqrnrGvbfktyDZwa9LzXFBNR3mwZ1qPIPDpy3ZlxKd4yLWIMmoXf-FtS_1ruFlgqNoMzEFmcj2GKlRY8OThueKDv6H_X9gsZdoGYE3vr2fNPrmwc3QNvMVwDUnslA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘跃进"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 54
+    },
+    {
+      "seq": 19,
+      "title": "“五都”与东周齐国边地聚落演进",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1XOZK_nWpXQ2RcJS6w2koMKjMl4-fyk0382Qvmen7DubVxNW8te-zxFSyTXJRkfaXmBe8obDTmBvlV-hfoijzkY3MqnHkm03E9xIFAK6obhCJWQiZYYVhriaXAiqLccVKc4oJYaNiEzDFBZVo4fkihsjHp7gN5j470izh-J_Dq2g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王亚"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 110
+    },
+    {
+      "seq": 20,
+      "title": "《皇帝北巡之碑》调查与初步研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1XOZK_nWpXQ2RcJS6w2koMKjMl4-fyk0382Qvmen7DubVxNW8te-zxjtpsy3Cq6X9wmsHzsbbcjWBzS358fVb9PpsDQqOV6HndWPOPDNVcXeamAp-YcO8yCyJL3dhu0xyOOagSKtwA-c8xT7Jv2fakI8P2OQp9O4CaUVCKzzAriQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "乌嘎",
+        "高建国"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 132
+    },
+    {
+      "seq": 21,
+      "title": "“八辟”入律考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2RocPmHqW0lqnsvenXtroByoLd9x5MkTNHWar6wONRG56o-3kr5pY_ZhMIzm3Lvu0X-ICV6kPU7D0kmOGtQ-JyYZsHVN120GCzIrnzDXRD629MC25jR2gxz5QlEWGZLrjGXInUdYTmut5wZJbzadS9GxJL-Th7Ml7TsRwBNFIsQQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马海峰"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 58
+    },
+    {
+      "seq": 22,
+      "title": "速度与耐力：宋代军兵的长途速跑",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2RocPmHqW0lqnsvenXtroByoLd9x5MkTNHWar6wONRG56o-3kr5pY_RMs8-tROKiWPm5BYjMOtOdlmLQz9GR2n8zQVpklg7N7emx5TqLBQCeewT7seGvpNWW-jD29HTr5z8XmwheBmT89jKTg_EsN09iHKqzN14Y8G90pZiwbDzQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "程民生"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 163
+    },
+    {
+      "seq": 23,
+      "title": "熙宁新法地域渊源问题新探",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2gTVsWpz9yd0H9yYlWc0zA282r3qq6R0HSRCSvLCiuWBCFT0oyhKKeFJwFil7eJuMnMCgCmrRH2TKE0EI0Br9dPXF3Asns1n7NKrOZTX5AZj3YW4pNNuKGLpoJHKH-ACPTE-sNdh92PnOX_Rh8pFBI2rFTpQTTtogNNfQDq6a7yg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张呈忠"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 101
+    },
+    {
+      "seq": 24,
+      "title": "传·章句·注：三种主要经典诠释形态的因革兴替",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3xlhRmn5E8Q_G9V7GSa-EXRloYfcPx2SVnX5jBjsqqXTD_JDMBYQPKyxpcIuXki7xwrwdZ1hYqNamD93LP2KUNyWOBEHMwJEFJ0RoUgJxcdoM39S_38hVE56wqoBzRX1fU992r3yBGt91FSznbi4sOwbK8tkTbOrj7XS72V9e2Dg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "虞万里",
+        "卢海燕"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 243
+    },
+    {
+      "seq": 25,
+      "title": "先秦儒家经典诠释模式变迁与早期道统意识形成",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3xlhRmn5E8Q_G9V7GSa-EXRloYfcPx2SVnX5jBjsqqXTD_JDMBYQPKj_XUr7eByKh1oN-sBoHPtWd7Qo63gh11v1U9Ul-YOpwcv-TOF7gwk_U3SZNXOtDNhCevaui14vZ6-Au4l3abpAw-es3Rg0ZztURRvzwpw7cq_FSOFnGJEA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘依平"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 134
+    },
+    {
+      "seq": 26,
+      "title": "有韵笺注：一种“活泼泼底”儒家经典解读形态",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK28ZGu7WvDWomnR8rEQ3OsO63cQ3VdviYTPS71rWuFe1w8MwgI_9V0YeVS7QnfgZZoeiF72CS-BHSy_m7JlcXrII-TDDPAczOQT1E_F5GuGh0fO3SITQLLuL0AbjgGVYpiylhceJzYMu-ivn1u0W-lk836HnBBDyGWaUNhI-JxIzQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "许至"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 84
+    },
+    {
+      "seq": 27,
+      "title": "法家“术”论的公私之辨",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK28ZGu7WvDWomnR8rEQ3OsO63cQ3VdviYTPS71rWuFe1w8MwgI_9V0Yc3vfnhqC7g4jS8Be43RCzNtoT9PLhR9w1vtDPhVmIjc0FXQnYaS50UJ46xJAcm_98EgOAx7OozATtdN-vk1cG7TyGCN2p-XluF3k9y_Zp4OprC4as2yiMQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘九勇"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 70
+    },
+    {
+      "seq": 28,
+      "title": "以言止战：墨子及其后学的三种辩论策略",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3BJz2z5krhpDTV0sM9svyPRj_kJwTSRfrQAnLRfjwugJgDyYUr3a1kCbprTCVWj6XGzg431cCGxfymvPzhRFNrG4ZPoShKtLwK7W1alCWgt_ef0QLfuU0htHnoZsJUxN9DYY4rnlHZSirFLPaedG1f6XSqWQVzHTSMN5NORmqKiA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "叶波",
+        "解启扬"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 88
+    },
+    {
+      "seq": 29,
+      "title": "《大学》创作年代考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3E4UB830MPbDVHiYfHJonCqOkTVoqUefthcKncLCINyFNsORHm6EDX0EcvvTds16N3v5VhsPvU5NtlxSNf2kYAwbSenZCvQjk6XPjgoB7lAqqahj8UpT7w02V9Hx7kGE2-S-S_CUhsCUZHZ-JLUzCs3S2gV9fFYyXc75aEd9ioVg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "时雨若"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 101
+    },
+    {
+      "seq": 30,
+      "title": "西周时代羌人践行周礼的现象与意义——以张家坡西周墓地洞室墓及所出器物为中心的讨论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3E4UB830MPbDVHiYfHJonCqOkTVoqUefthcKncLCINyFNsORHm6EDXpwKT_JxuK-76zWS5wh8c7lS74QnVH1QZ_BSZiCloWlFo9Pd6Zf6X2HSdgKDTURNtQrtr3ah3UXAuzGTbaCxahpXV39Kw2608ulIecPfuscBoptAHcGNVBw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "贾海生"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 129
+    },
+    {
+      "seq": 31,
+      "title": "记忆扭曲与流派建构——铁雅诗派的来龙去脉",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3_p4DJDZtW6X0z1DOIFx-x_dywu75zZ02J6393KzljWwp37bteBGj7Z6_qJ9yN5g5iT3qS_ccOIYkfGQk7v2Ajy5GU2BTtApuQvBOAlcAgYfZs9sfIDiKwaZv9SfhfXs8cEf7dvKEmOSLiRAcaikZxPMSN3NqaHCFxCfKhj6GBGg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "左东岭"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 76
+    },
+    {
+      "seq": 32,
+      "title": "葛懋春先生学术及生平简编",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3_p4DJDZtW6X0z1DOIFx-x_dywu75zZ02J6393KzljWxCx6R_jQX_iSE9IqfJ-VzGkMiZhgrdUqKfb9MWzWavBT9WES__sbazzh2zZn4B6TJvwzjvW1ulCvzYYfXZaLtdM8_nh-EEp6GM-UvhBWL7ZmTSZQ916orS3DHi2hTr9_w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "察应坤",
+        "郭宇辰"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 85
+    },
+    {
+      "seq": 33,
+      "title": "汉代郊天礼中的“天帝”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK14ePSna0CLlmW_HMuXxMEQnlAMK1yR3Ep1hYK-kb96XHYF4XowBZ6XJRXOaI2cjRpRa_73Kcfg0sVNp6b2yq9HzMBPatbr878uH6zCuF-CXIpI1r6ida3TpGsZOmHpXJjyP3jbD7bKlG7kDAoBe-Wx_qN-8naP4yP6VJRGyms_6A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈壁生"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 265
+    },
+    {
+      "seq": 34,
+      "title": "尸祭与礼乐文明的形成",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK14ePSna0CLlmW_HMuXxMEQnlAMK1yR3Ep1hYK-kb96XHYF4XowBZ6X0MqK3DRb-fso4bHdn8Jx7Zj8xvsNXHxUaXz9wCVx-Q0fjy2EQXak2-amwZysR89jIYum1x21IAW0G1S0F7T7lbnrdB4wEQg-XoIGDUaAa-NThM4l1ZVizw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "吴飞"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 256
+    },
+    {
+      "seq": 35,
+      "title": "略论墨家逻辑及其价值——为第七个“世界逻辑日”而作",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1kvPJTc-kT7VJcL2zYTVDYtaBROwk0VodGEg4b7JLgXgu7iE7oUavWzu90nxQm-cZJTBnl-Hpj-bZa1rQFQxuQ85eipd5oN-xy2f5liSeyDDb0-vajZw31pXuvKmWxm5L7WTrqoqoncXbhFeUo7nWfEMg7F_s4AiNzIVg6UHP1bA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "姜宝昌"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 79
+    },
+    {
+      "seq": 36,
+      "title": "客观合理有效性——《墨经》的科学特质",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1kvPJTc-kT7VJcL2zYTVDYtaBROwk0VodGEg4b7JLgXgu7iE7oUavWvWw8UieujE5jXSHY9l9om3pfrzD4ydB8_1L17DTYJEF7xGyILO_Z38xmbsa0r1WE5OFQX9WjtZK74pZ1JVaa6ZRYCEb5q-9-AoxGyo80wLp8HbTeeX1gig==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "孙中原"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 88
+    },
+    {
+      "seq": 37,
+      "title": "“材料”与“形式”：如何重新叙述古代中国思想世界——从20世纪70年代以来考古新发现的文献说起",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3KzcOMaK4MJ4E3KDbmO2kBKH0yGqmR8GQMj4CvDFFx6CtyYMHGktg8Ba-mICsAVxDoe40tnDXPy-tpw_drNx5IzicAwnFmRRsbe_eRP2pLAeEK0tBAZ_THQ9FpqDuAPSepC1qnCjJFciR1eD6iH6q0vaihgL_IRqIcDorRyBNqIQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "葛兆光"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 374
+    },
+    {
+      "seq": 38,
+      "title": "论乾嘉经学考据之风对朝鲜半岛学界的影响",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3TXAZW5tuMP3zzishkI6H40oko4rKZ5FKxhugooYJKQvAuro3PdcuB3yz5E0zr9itPXJ4oTtwlsffjRl3qzC53N0P34X9fWJBwFwii7GJ7qIwkg0ipGWm1erYVpWikN5nfex4ma8o6GxIiW-5Gwdg3ID7lP8hl78naquNKH8Gmeg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "漆永祥"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 132
+    },
+    {
+      "seq": 39,
+      "title": "从夷夏东西到夷夏融合——中华文明多元一体格局形成过程的考古学研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3TXAZW5tuMP3zzishkI6H40oko4rKZ5FKxhugooYJKQvAuro3PdcuBLk_3olDiYUrDgYI53m3sNEtE4u3xjIRTHtaLLmrfsl-mYhp6y57PNs5Q1GpHdObc3SmFh1_YZSevkFoP8J_6vUGEFZubE10iHyMbe5WfMvf4lWn6lrxP9w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "方辉",
+        "赵永生"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 382
+    },
+    {
+      "seq": 40,
+      "title": "尕日塘秦刻石与秦代医药探微",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1iRgn8Ct0vSCX6-g7eHoMb8mPvh2aqlx7TOE223xBP26yWPadtYddCA3_CL6rNmvu0RgH3WP3XfE_qrdZTX4pHq7V1BgyYGd3Qa7BKdXTmW_zv-0QJUSWqgA6R6gaecGkDNx_fbUiyjLOgVJnlFXGKZiYTkLlP7PPa-70gnapILA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈宁",
+        "卜宪群"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 197
+    },
+    {
+      "seq": 41,
+      "title": "西汉敦煌郡在华戎交汇中的地位和作用",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2hkC_ts9tbOm7mDniozx30XyQpjnu6DbNJhCUwDtps2mglCwbMQ-dgkFQHr4NTbWDE9JRkC8rfNKDr7k6u4AZXB0RQvNP7XxAdndP3ISUWQ_lvLaQkKQ0tE8-SCrKv1qKLM9DqGdAcUSbaWvuI5P7SlrARm1w_ybCu62RSJGwHiA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "魏迎春",
+        "郑炳林"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 120
+    },
+    {
+      "seq": 42,
+      "title": "《李建成墓志》与唐代玄武门政变",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2hkC_ts9tbOm7mDniozx30XyQpjnu6DbNJhCUwDtps2mglCwbMQ-dgqN9ajrUuq2ULA8iReyfbLSGwcYbquaKFqLM0rdchQGxiZkaTXqhEJFXod4pt9jqplwr6dCSPz4Mw7Mu3Y8P0inUmuNw99-lFoxKNo2fkOYxqEUl2hCkv3w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "吕博"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 435
+    },
+    {
+      "seq": 43,
+      "title": "阙特勤之死——阙特勤碑西面鲁尼文铭文的新释读",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2hkC_ts9tbOm7mDniozx30XyQpjnu6DbNJhCUwDtps2mglCwbMQ-dgXsizmXZ_ZvHxdTB6fZ0DX2R5ef1sB34oDNq38A90O1hPWCv0ykwsNAnA6lFu2pAKK4iEKs74pDru4Ym8ZpEfqCdjUAVV9lGwjGmf8nbPd1-Bjc5uUHOr5g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "白玉冬"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 156
+    },
+    {
+      "seq": 44,
+      "title": "黄遵宪诗歌用典艺术与其“新派诗”的生成——兼论其在清诗史上的定位",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK30JPMvRTpTMWt_dY6e_7GCqyubb9-g1WD1CIj4Yh26R4q4gd0FG4J5DUCJ78YC5Mu25eb41zkcHBTJmzE6E8yc14xymN5LHCKJmwV67hg-CYEpAhtNZkyTKu1b-F53pkY_XB9G8SnhFqxFdr594br2LXUjPe2yl2edkJXYRALfKQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马昕"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 131
+    },
+    {
+      "seq": 45,
+      "title": "《东欧女豪杰》与近代小说的性别表演",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK30JPMvRTpTMWt_dY6e_7GCqyubb9-g1WD1CIj4Yh26R4q4gd0FG4J5l401-xrTWTCOTu_dMpZRll_TRsw1I1MnwWrfL79SoYmC3cBOYAUxD4h275jGYAKD7QnCFOA2t0CzYvEpnQeZp1AX8SwJVcGoOCOdb1Ux-CmlGvC_XZkKUg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马勤勤"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 89
+    },
+    {
+      "seq": 46,
+      "title": "“伪士当去”与“迷信可存”——论民初小说中的“毁像”“造像”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK30JPMvRTpTMWt_dY6e_7GCqyubb9-g1WD1CIj4Yh26R4q4gd0FG4J5h4VVvUek0Gx7cbVC9Kz5vZRWfNv5KcXCznRvXoXPnonW9YbIZaBCA82s1bxj5C4KPvLRK-J_2-2wAtGnZpYnfvK7gXok5pY7Rb-H3hX5EIPjnzDao5vx5Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "冯仰操"
+      ],
+      "source": "文史哲",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 76
+    }
+  ]
+}

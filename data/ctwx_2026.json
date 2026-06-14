@@ -1,0 +1,300 @@
+{
+  "query": {
+    "q": "出土文献",
+    "field": "source",
+    "from": 2026,
+    "to": 2026,
+    "types": [
+      "journal"
+    ],
+    "sort": "date",
+    "size": 22
+  },
+  "total_hits": 22,
+  "fetched": 22,
+  "results": [
+    {
+      "seq": 1,
+      "title": "中国中古时期金字写本考论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Jqd3M9SjOGQOkZ5IIJimwGtIu6JqiSeMiP3sOXwvsyh7QvCSqd7OQVCl5_PKYC-sDKVb8mrg6B0OXvaLfGcHuzSaDVfLIM3lr5_e6Y7jhFPxhrXWWs8-Qk6i2wbMZfGwCjmLx-_F5krJRx7nIXNacSp6lFtjtcAOa5h5klBwwyQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "何亦凡"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 107
+    },
+    {
+      "seq": 2,
+      "title": "释“匙”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Jqd3M9SjOGQOkZ5IIJimwGtIu6JqiSeMiP3sOXwvsyh7QvCSqd7OQacEStFm5bWZpiSUTfM1mbMtS4TJ7Gd4buDBf_JAWpxgAzneWF4TT-zT8wnoN8wuBCBpdQHkX-PvGcLwSC8l-3S2Ysew84Tr96l9VrUtI8vvncXHQHJ3A0A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "白于蓝",
+        "孔婷琰"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 190
+    },
+    {
+      "seq": 3,
+      "title": "甲骨文若干模糊字的考辨",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Jqd3M9SjOGQOkZ5IIJimwGtIu6JqiSeMiP3sOXwvsyh7QvCSqd7OQDgnhKFS5n89CFk-H-YCbBC11H5HbPPlzzcxxGKrUbaitM8bthTB4ooXEnUlQErnVAkqZkKJw_j7zq4zZnghOjx36o0D74Q-YwjSQ92bg5V0O4g2kT4rM6A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "吴丽婉"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 124
+    },
+    {
+      "seq": 4,
+      "title": "甲骨文“今”的用法辨析——兼论上古汉语“今”的指示词性质",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3IH5BDdrQz2LwzBqaStoFFzNWMkzcvxGAFA8Wnbzm7RGOcM6vcYRyCmrtnPGq-UheEfu8gKzFMznn5K4nm69Wrv0UoguP46aIzhUJuyrmY1Z19GW_K-a2FybgAa5CQtcbM7irW4G48ICBmZKva6TeQS_uEvq3k9h_0EpdSp6aHOQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐丽群"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 108
+    },
+    {
+      "seq": 5,
+      "title": "新见■卣铭文与帝辛高纪年祀谱复原",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3IH5BDdrQz2LwzBqaStoFFzNWMkzcvxGAFA8Wnbzm7RGOcM6vcYRyCQ6hSxefHK2F0CCM36d9ib4Y00bNQf-yqAtyJf09OsphtMHkLQQwjkI3SrBwC4Ntl2YGTItpAo4b8f8gqAoz5qSvp_EynI2KwHX7QsriuCJd_no0L-QpVgQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "管文韬"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 133
+    },
+    {
+      "seq": 6,
+      "title": "河南南阳八一路春秋楚墓出土郑■鼎铭文考释",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3IH5BDdrQz2LwzBqaStoFFzNWMkzcvxGAFA8Wnbzm7RGOcM6vcYRyCsH9wKLUq23Mgwsyu4pqImA42KEfwAKbeNFz64h9GqXvMpBC6_ipgVm28TMcSy_6aFjUpNRu1Escpf8TcUNyv5Xydxp3Y5hMp58-tF6djsZWQxYFPuP7JZA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "牛清波",
+        "乔保同"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 118
+    },
+    {
+      "seq": 7,
+      "title": "新见楚王(今頁)盘补释",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3Vm_bKzc7748cB-AzTddqnoMW0tiGk7klOyuDDxVprED4dmMAC_kabbGzD2KZY0BXxgceH4CPw5UHz3BY7omRjj6RmlIE3bftQLf_zAhyZYpH6hbHtHzrhRubp73GvSh52OaGYkgVH11cMhxQM8fAAlQYudy-22mGEZVyiKwOrFw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐加跃"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 87
+    },
+    {
+      "seq": 8,
+      "title": "罗子戊壶释读",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3Vm_bKzc7748cB-AzTddqnoMW0tiGk7klOyuDDxVprED4dmMAC_kab7SgD2L8wA_d_OtKfpuJsmmxXURuLR2P4A6AnavGR91UGbA-R4Q9BfRhZwjT2FMWibWHGyZ-Up6V5tl-_vbUOKd_ZMV3h7BNPPQRsiHr0sEVmGYsT1Jte2A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "沈奇石"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 101
+    },
+    {
+      "seq": 9,
+      "title": "谈楚简中几个从“孚”声之字的训释",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3Vm_bKzc7748cB-AzTddqnoMW0tiGk7klOyuDDxVprED4dmMAC_kabxZwYybzSbVQDkBlvnpYyic6TawuyfZ6eZrCIQogx_qEgNaYtNeaDlIR-fV-_66CXNfbn1eSSlY3P0q8hhT3Cd37zcmw5uHMVFTg9pQNFDU9-yjN64umT9w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "程燕"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 101
+    },
+    {
+      "seq": 10,
+      "title": "试说战国遣册中的“■”字",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3Vm_bKzc7748cB-AzTddqnoMW0tiGk7klOyuDDxVprED4dmMAC_kab_SruL66Dt5wD4peOq7rb886yQv15kBPu-6u7eYQBmIHi5YSiRiVU6IoW43wed-bxVNBE34ltHsAP1o3INUPl4w-dUVbVh-8kpXMeEERFkx6fc54jAcU8Wg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李晓云"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 68
+    },
+    {
+      "seq": 11,
+      "title": "楚遣册简所见车器“朻”“周”“辀”名物补正",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2zS548543xJ5-LtS5TH5rSV-IXL-NgjOAqpq5W5he9OkvYvd8UqzBRB6tR4Z2_xLn2_19r3FE2GCfeX7E3JoqA63m8ral1OphBcAuZt9DnP095kS_rUth11KkIHByWWqsiZP-3rSE4q7lCCqXSNHnvhTlVi4bF3izwSKQksVlRvA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "唐佳",
+        "肖毅"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 65
+    },
+    {
+      "seq": 12,
+      "title": "银雀山汉简《三十时》札记三则",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2zS548543xJ5-LtS5TH5rSV-IXL-NgjOAqpq5W5he9OkvYvd8UqzBRxG4ur5FCmOonLXC08lE_Ssi58CNrKypCpS64TocHm51VaPriZ1G-kmXdHuFiBsWPjpH0fkv8J-0sXgaab2xu7_ac7_w3MUGjMPPgmYkJr_W8G_SDbXyNOg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "赵相荣"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 91
+    },
+    {
+      "seq": 13,
+      "title": "悬泉汉简中的荆决占",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2zS548543xJ5-LtS5TH5rSV-IXL-NgjOAqpq5W5he9OkvYvd8UqzBRUpditdchjJnIGBmjd6aDxPPHoTyaa-nbVWLoHLSTxFJuNbG_8W_bCNWHqLG9GZ_1tzfJMkbsgEmQ0_IHHP-xJUHrQhWS_vsSLof840vWlO-J09BLaX1jEA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "于茀"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 82
+    },
+    {
+      "seq": 14,
+      "title": "东汉砖铭玺印读札二则",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK07Y9kmegTloHtbxVhK4p0rJxqVqtwpft7w47DzNRToccW4IohoS7Wc1xZQU9zlsl07qD3_71FL97VSe6fBFk-9kDov4NtaYffKNm2aCABePjJri0mmAtsqwa6IO59eZqWGG23QaGewXRVfHMLibdyodqBE_M_NqfX0tQ_rnGeIJw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "常泽宇"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 72
+    },
+    {
+      "seq": 15,
+      "title": "汉简所见鸡价再探——以量词“只”为线索",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK07Y9kmegTloHtbxVhK4p0rJxqVqtwpft7w47DzNRToccW4IohoS7Wcwzzw0fsn0beI2W5KM4VbIru7AW92vAXjkDhebn1HHSrlD2w_CDEwOE7a2tNQVaFKEy5nwSbZwb_LTgISHPuWwk7W05YW34bFtoTnFNbTMhuKpzNtUbrzDg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "郭小青"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 104
+    },
+    {
+      "seq": 16,
+      "title": "走马楼吴简“嘉禾二年余逋襍米已入付授簿”复原与研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK07Y9kmegTloHtbxVhK4p0rJxqVqtwpft7w47DzNRToccW4IohoS7WcBnGPLPQuaePKy-Zq1vKz2egJ-ML4yfTFat6hLQgg_XAu9HvDY8J8VcyMWLV2GUTlaYlp4rPn_Qdrwa9hnXm1XJHFWgUq9OYiHRrReTZCQcZNxXqP0TCVVQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "任二兵"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 60
+    },
+    {
+      "seq": 17,
+      "title": "跨界与重构：晚清民国西方来华甲骨学者研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0-4qpHUgzgxMCRYSgp0dTcB4IWFXdjJJ26iaWkWIGKHX5qeqnvDsGU1W08zQHTaxaub7S63pjSHtrnY9lHhQTPJind3-d45SpwS791hncIEPdedPG6gQ09vBRHVTFX71CQ39o9tMENRhbBoeQdOF7l2AM-CrthFqZUARxN7bdcvQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张聪颖"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 61
+    },
+    {
+      "seq": 18,
+      "title": "释安岗楚简中的“襄”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0-4qpHUgzgxMCRYSgp0dTcB4IWFXdjJJ26iaWkWIGKHX5qeqnvDsGUu32hisG9Y1N9MjCxwakL_qoW_YrJGqGqLSNLX6farzzVD1Z7FlIGkIrYL4fpejxDpcx54ENtl3JUH7DCAFTtCELkTlfTLZmfNAZU2zNkIfRdUGoQmAg0yQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李美娟"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 124
+    },
+    {
+      "seq": 19,
+      "title": "清华大学藏战国竹简(拾伍)",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0-4qpHUgzgxMCRYSgp0dTcB4IWFXdjJJ26iaWkWIGKHX5qeqnvDsGU-OQcmZdN8OHVHIBRNph9ofJAdzA1m4TOL3DBOHHedmWibPXo_wQ5dzGW2EHfv1GXFi5RW__ygnwv09BA77MgnrojBybCkX5KpWtxqlkU1S_HkO3kJg3O_w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 79
+    },
+    {
+      "seq": 20,
+      "title": "睡虎地西汉简牍[贰]·算术",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0-4qpHUgzgxMCRYSgp0dTcB4IWFXdjJJ26iaWkWIGKHX5qeqnvDsGUJGJmiioFk87Aq9rZKrfpfAc0UcdLIZ1l2PeSH4eQKFyvc1t7qBrG_pzLTUpVOwgm6JbQkLfTULPgCijWibcois0uX0XMG5hm1S7G8hB2Yk70kr7P6sVhIQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 57
+    },
+    {
+      "seq": 21,
+      "title": "古文字省代符新探",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2K4E7JjLrNlQk9NtjLGhYiizX4RDkkGaItSzx-3yh-ZVRILYN_RUzHtc32nDIofnN_qv6pdSXD3n5KJilYqh1kcLfdM3yUBliC81BSvn012esx9GdtzPCHlaK4mjfW8girg3MRVPp3ZKiwm7PHqoc_twpmMCZv1OKXYeCfHg43dg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "许世和"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 109
+    },
+    {
+      "seq": 22,
+      "title": "敦煌写卷声调上去混的现象研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2K4E7JjLrNlQk9NtjLGhYiizX4RDkkGaItSzx-3yh-ZVRILYN_RUzH_lQdcTZnUh6nmFRDssRA9gav8f60BAsqew5cMbbQLLhzvMmWO61d_Cldse7rdaGXGKxxF-xKXcKxZyKNvtEnrFyheeK8hSMqIBHB3FCfmroexyi2TZcQzQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李华斌"
+      ],
+      "source": "出土文献",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 53
+    }
+  ]
+}

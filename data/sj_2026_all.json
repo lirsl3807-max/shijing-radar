@@ -1,0 +1,1445 @@
+{
+  "query": {
+    "q": "诗经",
+    "field": "topic",
+    "from": 2026,
+    "to": 2026,
+    "types": [
+      "journal"
+    ],
+    "sort": "relevance",
+    "size": 108
+  },
+  "total_hits": 108,
+  "fetched": 108,
+  "results": [
+    {
+      "seq": 1,
+      "title": "褒姒祸国形象演变考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2s8lMu51uOn_TJ4eiVzYrGtT1sBO8_hE51UAot9VSa1TgeFYM6LMd4M_bG239E68BLI7dVJAMcrld8kWmIv3XMsMewp7HqApQzIMRE4N286GK3NtzE9Zy4mvVBgBhgLjglUpFCuxdHEE3xUHy0MBRB4uCusokUdhcDHbvUC0ppgg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘娟",
+        "唐定坤"
+      ],
+      "source": "衡水学院学报",
+      "year": 2026,
+      "issue": "2026-06-08",
+      "cited": 0,
+      "downloads": 11
+    },
+    {
+      "seq": 2,
+      "title": "中华优秀传统文化国际传播中主持人的叙事重塑研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2s8lMu51uOn_TJ4eiVzYrGtT1sBO8_hE4ZgJHrEBazfoI60qLIaj-iQI89kq9cjnCA8vtHfIEa2W6_lOn1GBxYsqqekQAo54_ot-UbOkKg-L5nIVJ1WRl_JKoy6uFJvERUozvJiaQsgdExhijgGnFEl2DvMhTT7PKtQlx2AUrBng==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘昱宽"
+      ],
+      "source": "文化产业",
+      "year": 2026,
+      "issue": "2026-06-05",
+      "cited": 0,
+      "downloads": 10
+    },
+    {
+      "seq": 3,
+      "title": "“天下一家”从伦理观念到哲学体系的建构——宋明理学对《 诗经 》的诠释",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3zpTHFOnzlz19NZivEG9z4rnJdesdx4ajurY-wX-CIoaMs3e-hU9H0CxNKHzpvvurRO62gKlaltCCnGE3SfsLdTlerGPewRq8AZMbOrsEqdwjcNqFlkMYnz3__r1LyS1Kt9KBCJKGhGUkXvkV7_x7V53DJrDLPQOEUWk9h0Xhj4A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "邱诗越"
+      ],
+      "source": "烟台大学学报(哲学社会科学版)",
+      "year": 2026,
+      "issue": "2026-06-04 15:29",
+      "cited": 0,
+      "downloads": 48
+    },
+    {
+      "seq": 4,
+      "title": "同室争国与诸侯不令：《 诗经 ·王风·扬之水》与两周之际的政治危局",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3zpTHFOnzlz19NZivEG9z49HLDWG-zZSxrv6Y2PaIhmlMw9U0RIOxJuD93WJ3zoBKY9vLAnrcf6HZV25tsKCzEPCIJhJxABJiBtkvnW6tLfoUsZ-nTGqnZpfAvqrJ2p-C1E4On46pLe3fUmINJ4My5UPx_0WwH84inNgrtl2kWkQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王凯"
+      ],
+      "source": "中华文化论坛",
+      "year": 2026,
+      "issue": "2026-06-04",
+      "cited": 0,
+      "downloads": 37
+    },
+    {
+      "seq": 5,
+      "title": "《 诗经 ·国风》植物意象的感官书写与女性形象研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK00Jpvrbi-B7Sta-uifj7LxqDqpZwnq3f-topt8PnCCtYHpgg0b6uM9Fyn2kM5aQKNIpxSDp866GTDalUM6F44dYu5bSGoo4a4jXVKv3Tw7d3yF3anOQFjcvUQ7YF2WG5MV9PxEjfyTZ051DpWf0BThtZaZkGfihBX69-gQSZWkdQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "赵颖君"
+      ],
+      "source": "今古文创",
+      "year": 2026,
+      "issue": "2026-06-02",
+      "cited": 0,
+      "downloads": 96
+    },
+    {
+      "seq": 6,
+      "title": "小毕欧汉学贡献的中外比较",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK00Jpvrbi-B7Sta-uifj7LxqDqpZwnq3f9RBFsGUUyl7TNzvGdV760IPtOOuTxF5k32Vf0rg4AffMMXyv1_pjBD9Hwyg4hVvCRQtqhv5TcwaVLhchI7oV3MD2OlXDu08ir5aGfoH8s92znmzknJ1Zvqa9DkoJqrw5PdmFrmpZc3aA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "屈凯"
+      ],
+      "source": "文化产业",
+      "year": 2026,
+      "issue": "2026-05-25",
+      "cited": 0,
+      "downloads": 2
+    },
+    {
+      "seq": 7,
+      "title": "AIGC在《 诗经 》植物文创产品设计中的创新应用",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK00Jpvrbi-B7Sta-uifj7LxqDqpZwnq3f81T-WTurjp41lvz-okMYuN0QKt8zlKUyK8G96jQPL1-LudhHlDcBfaJFjf_YVdDUh1RzgRIfvsOJs3Wb2gSppLUpUIisLiZtaKWgVQ5wKDEr6rcnegBFwtkg2IoMEi_VX6wxzIj9g7Rw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈艳"
+      ],
+      "source": "玩具世界",
+      "year": 2026,
+      "issue": "2026-05-25",
+      "cited": 0,
+      "downloads": 5
+    },
+    {
+      "seq": 8,
+      "title": "论《 诗经 》“上帝”书写的多重内涵与神圣向度",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1W3acpBwxAwo5JOvggrfKsAjBVMnR9gE3MWcLOhRoNdSXxd7OIuRzBFaFw4NvpCqp5m6yG8gqjAWhlQ1R0twwkNw2UlqDYf52ptrK14s_AVcYYfZaZUXbIhvJV0-xva8ITyy6-ci_5ggioELjFdBZBdhfZNGNuHt-LI-KGStUIuw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "曹顺庆",
+        "李正丽"
+      ],
+      "source": "天津外国语大学学报",
+      "year": 2026,
+      "issue": "2026-05-21 10:01",
+      "cited": 0,
+      "downloads": 102
+    },
+    {
+      "seq": 9,
+      "title": "《左传》赋《诗》的文本意义",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1W3acpBwxAwo5JOvggrfKsAjBVMnR9gE0wACDeVcubbaffFlvqYSwDV2VnoAyLq2EHCkolTNMj_5I0myMvAuY3wUFk3b1YD19i5wMX4GWnyrtEtMfkihr-kKllUXr8leq6vfEJuTcsdG7kWwD3TzV4aiG_Ksg3Nr8VipusWDXITA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "辛甜甜"
+      ],
+      "source": "名作欣赏",
+      "year": 2026,
+      "issue": "2026-05-21",
+      "cited": 0,
+      "downloads": 40
+    },
+    {
+      "seq": 10,
+      "title": "以译行事：“意象型文化术语”英译的多重行事功能初探——以《 诗经 》英译为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1W3acpBwxAwo5JOvggrfKsAjBVMnR9gE2gtEEZTHWZII8VmdKe1epVHEZcAvlt97CHo3wwXklwC9mi41B9P-UuDjioYL4ZyLlp7m6I1G2CjP3gLKO8rbHpF8IqpXc1RWgveBHuJ8wKabguzcpUYh6-EhGIvUWcsLxAWtJfbfRzdQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "梅龙",
+        "魏向清"
+      ],
+      "source": "外语研究",
+      "year": 2026,
+      "issue": "2026-05-18",
+      "cited": 0,
+      "downloads": 154
+    },
+    {
+      "seq": 11,
+      "title": "奈良至江户时期《 诗经 》在日本的传播脉络与阐释嬗变——以本土化文化重构为核心视角",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0DJRFUZoj4Jc7UyepO-IaUGSSxVn6gip37YWnAa1s9D-g4zuw1ZwaqUIcwJsLPLsw9Gmwqk318mHGJhp_je34rnLGlazMyYlfVX7e3WzUPM02H0l8dWSA_edx3WXp2AzD35QrxKJ25sdA-bGO6j4whbQifnPM9WR9lLu2YOcEJAg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "何易展",
+        "王冰星月"
+      ],
+      "source": "中外交流研究(中英文)",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 16
+    },
+    {
+      "seq": 12,
+      "title": "《 诗经 ·大雅·崧高》“南土是保”释义考辨——兼论《 诗经 》“保”的释义问题",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0DJRFUZoj4Jc7UyepO-IaUGSSxVn6gip17IckOAeKFJp-xH0MvsixfWFsy7Alxo3fiS4ggbcchdbA6lOvUF44LiufJK1sYskvJkwYROwva6gmUx5yTjbfzHFjE9vSJYf0O1VAcAshHSI0nFtsFoMy6xdR5R-AYWruQ1ElR3kgX_w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "彭慧"
+      ],
+      "source": "盐城师范学院学报(人文社会科学版)",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 16
+    },
+    {
+      "seq": 13,
+      "title": "今本《 诗经 》出于鲁传乐本考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1sHECXgmTU_auPGERNwSxyDd_JOdNj8bzKQWJrK2yM79CZbTzehrv5rKZZ4OivRDGC71q5cOJCXlHFK0xcbL1OntHPxBlJ-qzmjmpVVlGANiqeShOCkxOWseAPYp6IVGVtnucuFwcEWI6yhsOfzMsB5UYLAU2YStPq9HSAOVUXFQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "曹胜高"
+      ],
+      "source": "文学评论",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 65
+    },
+    {
+      "seq": 14,
+      "title": "《 诗经 》的人类学研究：动作的日常意义与社会价值",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1sHECXgmTU_auPGERNwSxyDd_JOdNj8bzzly9tA7XJ0TN9fDwCAhQDaoGMv3LyTyA3WauAY3YvFqS7JgpWID9LOjKyra4_QlraIuV_khZwJoSPtD0WehygF5lqOVgZnN_wjZDdA9HurwoZb21Hy9xoV8_raR1ihpOQqYfEwojwCQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "雷米·马修",
+        "郭丽娜",
+        "胡章龙"
+      ],
+      "source": "中山大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 15
+    },
+    {
+      "seq": 15,
+      "title": "论姚际恒《 诗经 通论》之以情理说《诗》",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3QtnYLuqE6is7bPUf2k7xXxljPQ4mtlPhLw8xckSGrMTcEtuiVH_2vTzptqSUfFXPctPj5rmEKAugybjDpCbtB8OcklKb1rYyh0zldIuJFkS5L6GfRkI1odQop7bjrwgxOCr75VdobcbcXG9s0dw1KTlTVseJ6mIGziLt9lXbu2g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "傅小梅",
+        "鲍有为"
+      ],
+      "source": "巢湖学院学报",
+      "year": 2026,
+      "issue": "2026-05-11 14:33",
+      "cited": 0,
+      "downloads": 56
+    },
+    {
+      "seq": 16,
+      "title": "论《 诗经 》句读的二重性",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3QtnYLuqE6is7bPUf2k7xXrpdd9rVnvf2BYwrGv17m3xeb9lahkJGZ2YPIWwoo3ERltLIgxN_8lLELp1NDcRcqpvM75l6P9RQvBPYnYUr9NvioAJTux_kJII8RGfAIg_3NU1sVMlzrRZqOQQZhfPT8o35nNudFzcHaot16mnDRXg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "蒋文"
+      ],
+      "source": "文艺研究",
+      "year": 2026,
+      "issue": "2026-05-10",
+      "cited": 0,
+      "downloads": 103
+    },
+    {
+      "seq": 17,
+      "title": "19—20世纪上半叶《 诗经 》在法国的译介与传播研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3QtnYLuqE6is7bPUf2k7xXrpdd9rVnvf3ceVjT-BG9Vo6uEtkkYSyFpldFQuPpioMDY-rLJJyk-IFdMB-q5B8VJk8oBVqdSTIjAw0QmCpmT-qYx841e-qnAUtv2eMOpo0ltzMH_WqjJorynru4t9Rmuyd7KQTVGK1qGVKwyWiXZg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "樊其芳"
+      ],
+      "source": "名家名作",
+      "year": 2026,
+      "issue": "2026-05-08",
+      "cited": 0,
+      "downloads": 11
+    },
+    {
+      "seq": 18,
+      "title": "论汉代乐府民歌与《 诗经 》民间性的传承关系考论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1R8G7H3xJCTyKAXZX6mTgkB-dW0Lk-3RTJt7LvZ6_aySmndYwm3Dty_S8HVrseJo9FHG277ZMZTCKApD__7IRneOec8jbea-jNnfiKVdLsfUu0onPuKF30wGX66zRFmJinhcSIVD1DjnB5WhswWGDneXdpQq4WMZxYU8TpXXSn6Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李静霞"
+      ],
+      "source": "新楚文化",
+      "year": 2026,
+      "issue": "2026-05-08",
+      "cited": 0,
+      "downloads": 4
+    },
+    {
+      "seq": 19,
+      "title": "《 诗经 》植物的文学意象分类及文化内涵",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1R8G7H3xJCTyKAXZX6mTgkB-dW0Lk-3RTJt7LvZ6_aySmndYwm3DtykvRyxkMPBUGyFtHS8X7MTf1lFapZ0hAsEuAIgoARR8xvlnIsMRUSruLuF2w9uRbp-kxpkEps2cYz9z3VdUJlaRFGGuaFVS-BXjbGZV4U1TSYkzK7NB0P1w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈媛",
+        "肖姝慧",
+        "隗宁"
+      ],
+      "source": "新楚文化",
+      "year": 2026,
+      "issue": "2026-05-08",
+      "cited": 0,
+      "downloads": 35
+    },
+    {
+      "seq": 20,
+      "title": "元代《 诗经 》学与元人诗歌“风雅”论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK05OThY0iUCh4fOICCEkF9p7SGgT1W9f_doLIPbQsAW1fYAZnCNHrObyMox9IyziuzXTFWL8nmlbzNC2M93sJIPUhmoa7d7NP6ghM8YAqhm2dQk4hdVcXgdNOn4fGq9dZCIL5lqzMbbIc6NDIgm77MFMyQQhzLdjbvBuPeAbFh4vA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王珏"
+      ],
+      "source": "河北学刊",
+      "year": 2026,
+      "issue": "2026-05-01",
+      "cited": 0,
+      "downloads": 84
+    },
+    {
+      "seq": 21,
+      "title": "出土文献资源赋能国际中文教育课程教学创新研究——以安徽大学馆藏战国竹简《 诗经 》为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0VPWNUugUNZknj7H4CCvV109hwMVFz7icBHhFSsaIV1Xx3-lLlCR2JL9HslfB9O3mkD34p1pFm1iiREEljj6G6r7N75B5bjj50cYdczX4lfAu5IDhteEZNEud7t5PT6WtS6HjBuC2qc2lE7wMFxOb28itVyWxaDCywcDi9JLQ_6Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "秦婷婷"
+      ],
+      "source": "牡丹江教育学院学报",
+      "year": 2026,
+      "issue": "2026-04-28",
+      "cited": 0,
+      "downloads": 4
+    },
+    {
+      "seq": 22,
+      "title": "《 诗经 》中的触觉意识及其表达",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1A-e09C9JcjW9eDaMtOiiK11MLXz4zDa420bw39-1S-aGpz7Atg7Yqnw014W7W-GpK-N70zIvfFGMWu65L1kaijikucYVWSG_MM4r7xzpamKPy-FhaY79LtiwBlDlmHoUyA7hkjFDDP8St0SbfPz-wP3UQv2AkACX4Fxtu_xOu1g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "朱全国"
+      ],
+      "source": "甘肃社会科学",
+      "year": 2026,
+      "issue": "2026-01-25",
+      "cited": 0,
+      "downloads": 131
+    },
+    {
+      "seq": 23,
+      "title": "今本《 诗经 》出于鲁传乐本考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2o_fTXnmRrnao3rbk2lmeCL0aaxi_u3d9ZW009K8KvVPlU3axfI4vV3q1B37FZ2Z7ksJ6BZOzNRIuEAEjc8z8kMP0sJOJvCzwl7ILMO2ug4npNoCjDtFJicJW_qlZ-hn8UQvVYpY7VsvdC3xtwq1LmmLLbOu1IsGpTRe37K0fH5g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "曹胜高"
+      ],
+      "source": "文学评论",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 65
+    },
+    {
+      "seq": 24,
+      "title": "AIGC在《 诗经 》植物文创产品设计中的创新应用",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0uZIbN16mH6mEjVGD6g9yfiTb-HBP-AJMBu2l2iMc2CmFDLQUZDsqQAILPAHw3VfYTi-VEqEB8iQIojyhuFOxY72sxQDPVfG8Bn3jstaX3s18Vkl8_Br8tWlJcJ4IHlAfeIkyQu2RWkq7tn7G5D2pAVdQtX3yzrwN-ZhzJQ-II-w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈艳"
+      ],
+      "source": "玩具世界",
+      "year": 2026,
+      "issue": "2026-05-25",
+      "cited": 0,
+      "downloads": 5
+    },
+    {
+      "seq": 25,
+      "title": "基于《 诗经 》叙事智慧的当代国产动画女性形象塑造",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1WWjCd3c1XHLZCAp-r9krDYBtDzCrq3Ma6rg-S_Wf3PBxu6t8HybCmuStYSHZNLcoWDhiHHg8NpPqNJnIwKaiecbD7iTbTbdVRRG6wy0O4XMrswBq8RQ6iRzKX3TxZcci9LlFP5rErLqE5XjryiycXGcZY_vEYae1cJHuYFkzOrw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "孙慧"
+      ],
+      "source": "嘉应文学",
+      "year": 2026,
+      "issue": "2026-01-01",
+      "cited": 0,
+      "downloads": 70
+    },
+    {
+      "seq": 26,
+      "title": "诗国晨曦:古今风雅话《 诗经 》",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1gbK_2bz6IcYjp9qb3h03wAsPG9wK2V2-lh1-BhwgiW6LFIkq8zDy22sSZ9B6EBCmPJ8nbPtBeE5vn5T7lhfeYhXjp-Rs0YnfKJLNj8Pa3YwyqGpSV5Qx2TJEazzUePIDYkX4rqSz2emyxb74bt_orbdBMKQkxuSvNEVHTlnawVg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "source": "党的生活",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 11
+    },
+    {
+      "seq": 27,
+      "title": "《 诗经 》“文以载道”与《楚辞》“言志抒情”的文学表达",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1gbK_2bz6IcYjp9qb3h03wAsPG9wK2V2_VLE455FNiQg1tmjRC1C1aUF2xnJsLetniJJSnoiwEDu7In1XEUwhpvX97gqA6u11L1-eWQQQImi4AgkD0YaS7yK5fG5gUERoXv8R2ZeCKibMRv9iz7ou_etoUhRWoBqiRUE7_wilYCg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王燕萍"
+      ],
+      "source": "嘉应文学",
+      "year": 2026,
+      "issue": "2026-03-01",
+      "cited": 0,
+      "downloads": 47
+    },
+    {
+      "seq": 28,
+      "title": "“天下一家”从伦理观念到哲学体系的建构——宋明理学对《 诗经 》的诠释",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK36711wuDxHJQj5D4AA8qMIjg4zL5TpIjJzqCe14b-tXZuD3sshV8MtxJbAWCYOQbe9Gqs9ilZgsoKGB2v6cABlvDbDUsc8ScyG2inK5vbDCivkmRQuFmW2sXbrsaOfG6YtSAWPLtP54l2To96M1bw-VfHdFxCPKw7JLgigX_qRjA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "邱诗越"
+      ],
+      "source": "烟台大学学报(哲学社会科学版)",
+      "year": 2026,
+      "issue": "2026-06-04 15:29",
+      "cited": 0,
+      "downloads": 48
+    },
+    {
+      "seq": 29,
+      "title": "《 诗经 》中数词的用法研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3GkulVbcVdjEA4M5vdpA-KCA5-PRww3j-Zc4hc2h2VGUfWXkC0uCgjtSslvNom9Vx9AX6O1S5biY9zURDsy_z2_lG1Ru-yQjVzstHcSLU1zMvD94VWUB_EaDptYQ5G1ZkxNZmB7lO1kbwzNs9vbio-6QFYoFcNS3aY514n1lXRAA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张米娜"
+      ],
+      "source": "中原文学",
+      "year": 2026,
+      "issue": "2026-04-25",
+      "cited": 0,
+      "downloads": 0
+    },
+    {
+      "seq": 30,
+      "title": "星汉灿烂 以观岁年 《 诗经 》中的天文与历法",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3J-JF3Oi1jVHL4kO2bYd9b_Xm0YNlyXzN6FkGX3GHwrtWVG7oIm2Oe-gv1dSsEsqs_VQlxHC6zG3X4WfdQNxAMNR00vE-fxBmjsdof31N2WiKu9v40XdFxFkJI1ToBZ7jRzMwzM8NKGHnFMEWcRd1NxzsoIc6s88JHEdhDYT-Y6w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王泽文"
+      ],
+      "source": "人民论坛",
+      "year": 2026,
+      "issue": "2026-02-10",
+      "cited": 0,
+      "downloads": 163
+    },
+    {
+      "seq": 31,
+      "title": "理雅各《 诗经 》译注考辨",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3_IhoKk2nuQ9_3K06QO0WkrAFSzVKWpLKKPqohWWYQDqUXll7UvkZEEZsoPxbAAnHnh64vaZY4zHqzhyGs7m3J3aoe8HYleTZ4ovT0esmNtUqohGJ31FJ0fk-C6ELE7tQzNr2koTXvCUn29Wj69s6rXlM30Smhr-yh6DVhZUb2cA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "丁大刚"
+      ],
+      "source": "外国语(上海外国语大学学报)",
+      "year": 2026,
+      "issue": "2026-03-16",
+      "cited": 0,
+      "downloads": 328
+    },
+    {
+      "seq": 32,
+      "title": "黄河在《 诗经 》中的文学镜像与文化意蕴",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3_IhoKk2nuQ9_3K06QO0WkrAFSzVKWpLKTN9jqJv_netqIuQ5wesUlj-PeY84Pp0QcuXVxTMM-C2hoL93sU6miQvEF7dkXTKpDyK31MQWq794aVWyPZ8wjXdXTnS6KyKoGvW4_nnwQteC-ZkdmxNUJ_OVuMSLcU98mI3wGY9oVMg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李胜男"
+      ],
+      "source": "文化学刊",
+      "year": 2026,
+      "issue": "2026-02-20",
+      "cited": 0,
+      "downloads": 107
+    },
+    {
+      "seq": 33,
+      "title": "《 诗经 》西班牙语世界的译介研究——以杜善牧全译本为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1nCVE-gOpXRzVhtngHKV-O40FgxbA1d-qqzWp9RL4hvDc7uyqEBE8yqkIDwCW360gpnG7ls9i-WQZGIk8ixD4OK6cT6221Logm9esxff-nqZ4-OWtfbScCyq-GcQDZ34chvG_CLNnWsUpUEZVSRVC7Kq7vHwAZDKsvv6zTrY5rsw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "叶芳菲"
+      ],
+      "source": "滁州学院学报",
+      "year": 2026,
+      "issue": "2026-02-15",
+      "cited": 0,
+      "downloads": 20
+    },
+    {
+      "seq": 34,
+      "title": "从动因、形态到接受：杜善牧《 诗经 》西班牙语全译本多维研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0I1BVoy06rKr66xklfhNB0exOFQnXkWyX5VDF505FBVEbVVUXu3D_faDCdoEMQEAfCVbHQ6ZcowkKd5_EcW8J1o9BhPno3hGq8hyTreUKIDRLp2C7nd89dOYy_EEQU8AeU-ik40LxVBlyH_EDJfEygi-5ldfz7j_B7JPhJjEnt-g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "叶芳菲"
+      ],
+      "source": "新传奇",
+      "year": 2026,
+      "issue": "2026-03-27",
+      "cited": 0,
+      "downloads": 7
+    },
+    {
+      "seq": 35,
+      "title": "《 诗经 》的人类学研究：动作的日常意义与社会价值",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1lFD9cHQZOfkRAXA0txN6IWYWh5c4NEtDbtV1RWh3y7SLyqYGkLhGpP3-OZr2kkMj-S3TlaDO2hhkYqMoBE_k4Y1JaVfPhMNAYOxYsmfnrjIChL2Bqp57CGT16ndq4cCR4wFNH0ktdtccYEC180oShSinA2WGY67ZHcRovp_qbSw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "雷米·马修",
+        "郭丽娜",
+        "胡章龙"
+      ],
+      "source": "中山大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 15
+    },
+    {
+      "seq": 36,
+      "title": "许渊冲《 诗经 》英译本中的民俗文化翻译美学研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0gXUIRAiup50BT7976RwTp0bm5n2wirLiA1XYTmQ9MSLMdP8xUMp-MOYp3jVWolKnK6tjp_Uq5BQSQVtgEr3Srl7g87oH6Ozr2YMuqB16OXnrPIf6QTXQj0dzy2Fu0UIdKBo7nFv_JohdzPn2s-4XU6nGXny1XjvHDF-9hovogyw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐茜源",
+        "尹明明"
+      ],
+      "source": "燕山大学学报(哲学社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-21",
+      "cited": 0,
+      "downloads": 538
+    },
+    {
+      "seq": 37,
+      "title": "切己体验的挑战：从朱子读书法到《 诗经 》阅读实践",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3odYrqlQQazgDf842rILtsMk45D7yabDFshibA4zs4iaAxXgtuGq7ERSPm14w_YqTL8NZEUIFBRKK810lRTKVm0cCaEhYnyXvAj5rzOOOCuYJStnwH5gObpMKkbLrmsJGPBwvY8eTergZ4SzZRFp8DW1-AGB93QZPqT1UgokmclQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张万民"
+      ],
+      "source": "北京大学学报(哲学社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-20",
+      "cited": 1,
+      "downloads": 256
+    },
+    {
+      "seq": 38,
+      "title": "从认知隐喻看《 诗经 》中“桑”意象的英译——以理雅各、许渊冲、汪榕培译本为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3odYrqlQQazgDf842rILtsMk45D7yabDECd0aUYKb890isCIXH4hHlLvtZH54Ey8xdmi1QSO-Ubg-81jBG8IuTV3lb26YXJYydsPYT3QBdkiCqSS-AYOcP8Eo2L_uwB-_CDvTtiaKoIZFGwiVrUWAXv6hCpz8NmZ5W9t83nj-AHg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "江慧",
+        "姚敏"
+      ],
+      "source": "大视野",
+      "year": 2026,
+      "issue": "2026-02-15",
+      "cited": 0,
+      "downloads": 96
+    },
+    {
+      "seq": 39,
+      "title": "《 诗经 》“葛”意象与女性及“坤”之关系探析",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0hPhO95xw7lij1QIY_V5A2BBFse9Q6as30Oo4noXrHN-3ScB9Odxd19KGKYkZ7XrDv97UjFZwVdXmQ4AeECUrUdTpjm8Vt1NjBmwV3BJbGFeJYwVyXRzvwz_kbCOtMpJAPs3Wojo8S6GrRsLc0yAAFUSCYS93KrQVz0SgRg2nBHA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "聂科记"
+      ],
+      "source": "濮阳职业技术学院学报",
+      "year": 2026,
+      "issue": "2026-03-19",
+      "cited": 0,
+      "downloads": 187
+    },
+    {
+      "seq": 40,
+      "title": "《 诗经 》二十四节气音色联觉可视化设计研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3uxSo95ALTtsUl0_E7YPoFF4tt2eEOiMeEkDUAtZAWC8ovMbk4BoWs5halNfJNL3UcDyIYqVxUOWQxLd8yGbexU1HoJKuSEoa6aYmDhWzO3PAnNta5SJKlp4LhSWmmZNvmaKS0wpI8OLFkRF9ckk_0Zy4aW-KxEET_41R5oXshEw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "毛雪"
+      ],
+      "source": "色彩",
+      "year": 2026,
+      "issue": "2026-02-25",
+      "cited": 0,
+      "downloads": 13
+    },
+    {
+      "seq": 41,
+      "title": "《 诗经 》廉洁思想传承与山西廉洁文化创新实践",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0orFynblm-SwDSYkrXp0sR60YjxEHhT_9I7o1fxjgbu1kz4B7Q3cSA3tj6VHDMBi_nKQE7Qyk3LehDLewDBaccrsny6KApidfKrG_ybLGuPX-Uq15GV_zg5CSgw5PARiQd1_wbPDcwzjP7CM8Ke1u8IT4en_GMJbUzqnLUUanmUQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张静"
+      ],
+      "source": "山西经济管理干部学院学报",
+      "year": 2026,
+      "issue": "2026-03-20",
+      "cited": 0,
+      "downloads": 7
+    },
+    {
+      "seq": 42,
+      "title": "《 诗经 》中的家庭伦理观内涵及特点论析",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2b1BkLPPEdtuQdQDuo9FLq2KyiioR1W6xCuIQa0eKsNaZtuV5dYHs5kuXTh-PVSBn-vzaD8Eei6JzkUWgxasanhJ7qXq_YDtDoEdz20wFbYJo_RHy0SOTyw3i8KA7-3Qc756sdzvBXae7botQwuhA-8kZaDL43SelBNQ8q18Sw-w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王树涵"
+      ],
+      "source": "品位·经典",
+      "year": 2026,
+      "issue": "2026-04-15",
+      "cited": 0,
+      "downloads": 7
+    },
+    {
+      "seq": 43,
+      "title": "从元典阐释到数智译传：中原学视域下《 诗经 》豫地故事书写与英语传译研究综述",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2b1BkLPPEdtuQdQDuo9FLq2KyiioR1W6wyUROLLmsP_mTUsXWtOG_hhvwlqmxvqCQQG748ZLR6VY-E5W5NqDxOUmWM9ZT0qQWJqlohmvYwJrzncjxbzCTePeky2oyloBCTLq1sSVggutlM6DTM7ihXgy-A6l2vRKBjcA96z9YZMg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "连蓉"
+      ],
+      "source": "河南科技大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-27",
+      "cited": 0,
+      "downloads": 128
+    },
+    {
+      "seq": 44,
+      "title": "周朝天下观视域下《 诗经 》爱国情怀研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3bXz2a4j20V_5Be3ydqKSSzVyeGtyG8f7Fk30ShUdKghTf3jEpM-y0NjEZHG8kN6S28Js63q8nhiVE1zwBOay9EhB4lcwdDOJZf9-bKAcUD5eLCSoTgPI1UFC9e9ghK7jbZpbNZWWioXrqHA0X_dzCtHNBk9vVrFSUhtEqvk4f9A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王子平"
+      ],
+      "source": "楚雄师范学院学报",
+      "year": 2026,
+      "issue": "2026-01-20",
+      "cited": 0,
+      "downloads": 172
+    },
+    {
+      "seq": 45,
+      "title": "阜阳汉简《 诗经 》与汉初古书文化问题研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3bXz2a4j20V_5Be3ydqKSSzVyeGtyG8f4_ThtoHUh8_fNVB3pIUdTOWX0D6PotbGdcyIj4YCUGXr04Gk5m_g604dxM5_AClfmFCyrHCphc5Wd48RQ_oqTIRX5_MACWoAlKqtpMwR6h4tW0Hm9dwD9d31WGyHqp6N2CRQ8fSqFsAQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈焕妮",
+        "梁月凤"
+      ],
+      "source": "文物鉴定与鉴赏",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 34
+    },
+    {
+      "seq": 46,
+      "title": "从《 诗经 》到朦胧诗：中国抒情传统的嬗变与延续",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2yHAdtSimEVFHnt8eCzacCJyI3t46qscXn8w1W6AzoyspF24x6IEqvm7BFCAzf3pHxlqpA1IFz4hk3x37zZurHS_3kmq6WagWtWeIJdM--37YuDH2IX0Fkf9IYn0zNly9-dtd87jP5W_poYD6D7IkjRhg_FrweQtOJDDjT-FBgxg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "朱峰"
+      ],
+      "source": "辽宁开放大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-03-28",
+      "cited": 0,
+      "downloads": 192
+    },
+    {
+      "seq": 47,
+      "title": "论姚际恒《 诗经 通论》之以情理说《诗》",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2yHAdtSimEVFHnt8eCzacC2k0HUcq5rgy5rYD6UlL72itzxaN2YhNiIPZMu9VckC2bbhPxU-nbMQjIMoCm_8HRE3LjgsDhY2t_RxsamnOrzsfMxyFpoAp83p9Xv3DIBQVFlNtesSjssO6gc_ZNFUADYw0Ab_uNkDzIUZ9x_FicjQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "傅小梅",
+        "鲍有为"
+      ],
+      "source": "巢湖学院学报",
+      "year": 2026,
+      "issue": "2026-05-11 14:33",
+      "cited": 0,
+      "downloads": 56
+    },
+    {
+      "seq": 48,
+      "title": "《 诗经 》与古希腊悲剧的战争描写和命运关切",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2yHAdtSimEVFHnt8eCzacCJyI3t46qscXiBlqy5HklSYBZnFJ9OymA89WJghofFbvaR58YA2siEKLjL9eMIINl1JeFMeuef00Wr6pqZoXlJWhYBgKhuHUsdQHiLzd4wpf7TrKFzETlcpELOOYZpmc7ANbvvwUsTXL3IhfDGCvbMQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "蒋重跃"
+      ],
+      "source": "通化师范学院学报",
+      "year": 2026,
+      "issue": "2026-01-20",
+      "cited": 0,
+      "downloads": 178
+    },
+    {
+      "seq": 49,
+      "title": "《 诗经 》劳动伦理对当代劳动教育目标建构的启示研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0sCBFMiJCN1zKJ-Cebc7dM49HVdEYWs75YU92osHtGCLuqKEXgfDB_aSIS6lavz2ONFGONe40yE4k4Gw6Pk7TCg7zYG4-v-u-og3UvKNGD0Cy1PzLre_lJQpgAoZfifWVKKxG740irSDu_9e64xxgOyKiUk6hoPoQXpY0H2NtAqw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "吴洪文",
+        "何祖锋"
+      ],
+      "source": "红岩春秋",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 39
+    },
+    {
+      "seq": 50,
+      "title": "《孟子》对《 诗经 》民本思想的诠释与深化",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0sCBFMiJCN1zKJ-Cebc7dM49HVdEYWs75ZJqs7hF-UTt8DzR-_CmVv85lzu5zQKsCB8CTNmgYe6pAPEBRzV2T3qofUHLjk2EsKVH2liYFPyXoORY7Suo0BzThgKTv6rHPK4Y_6Z-M3gvajkyF4616F5Pkf0duIQ_jxyY1idovZUQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王溪"
+      ],
+      "source": "潍坊学院学报",
+      "year": 2026,
+      "issue": "2026-02-25",
+      "cited": 0,
+      "downloads": 163
+    },
+    {
+      "seq": 51,
+      "title": "论《 诗经 》中的农业祭祀及精神意识",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2bEgISBIQeX4cWIujdCQp7ntvhMZJAds6by5cbsz4sobQxoT2lteGQ8LBiz7RTB6AL-gjjOoZDkHWM2alaS3nguIUIp-DHy1H0dXEpT95eltnr9U6WFj50IwcVKlCnUEGJ2Dei5vIGUsMJ6m2vSS8GwZi7NWA4pdiXUcJrI-yi2A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘雅笛"
+      ],
+      "source": "今古文创",
+      "year": 2026,
+      "issue": "2026-03-24",
+      "cited": 0,
+      "downloads": 168
+    },
+    {
+      "seq": 52,
+      "title": "浅品《 诗经 》之美",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2bEgISBIQeX4cWIujdCQp7ntvhMZJAds55OEtULyBBocq4losM43hcz0X5E-MxaFzjVOJawcyNGiQuah0zmiAtsfGZcUiuuH3PMoekj0ikjIb1Ilgblvo_dvOuNQRAyz8l9yKrZ5pBDpg9tambNNWDm_SLnG2T_LTrakXGUbgRbA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "高雪娥"
+      ],
+      "source": "江苏政协",
+      "year": 2026,
+      "issue": "2026-04-22",
+      "cited": 0,
+      "downloads": 65
+    },
+    {
+      "seq": 53,
+      "title": "《 诗经 》之风教与道德榜样",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2bEgISBIQeX4cWIujdCQp7ntvhMZJAds4ygWSJUdunXC0_DJHqZs71Es4sV_t-WtyXWLl7sLD3HFRwt8pP8tKd7wMzVbZyUWbKUH9QYorAyfdtKnC3sCQncYXy7Lb78Adq0_e5zBmE8wWJEkBbRbwnNqQAmyZnxonMYCyFxiDPbg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "周丰堇"
+      ],
+      "source": "伦理学研究",
+      "year": 2026,
+      "issue": "2026-03-10",
+      "cited": 0,
+      "downloads": 150
+    },
+    {
+      "seq": 54,
+      "title": "《 诗经 ·大雅·崧高》“南土是保”释义考辨——兼论《 诗经 》“保”的释义问题",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK33ccXAwVpmZuSnhgkNq52KC0qoPvZJu7CJCharPrn-z4-cfQisjrNAD_Yb7gVzkn74RpcZNGfRPEo5nMGZGuP-Ma0s8TlwEwxZVuozJPUFe9LJYXUMO_ngHS-pj7LORan1-QJIi1FfW2Q4OglIN-neuQH2FDrCFumz6qwwzLqPaw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "彭慧"
+      ],
+      "source": "盐城师范学院学报(人文社会科学版)",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 16
+    },
+    {
+      "seq": 55,
+      "title": "《 诗经 》君子之乐的人际属性及意象表达",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK33ccXAwVpmZuSnhgkNq52KC0qoPvZJu7BcQSh53N_AaA_4BRI2Qwp2FxA6rgy2oQNi1O5DGXUWi3LxHdabKYSBQ_4ZBGB4V7IjUgVi4f73js1nlDjb7vZR5UwMmoq03abzLIQ4qgZLxjZ8UJ_R9s_hnROEJajTB4lM5KKNGtl6Mg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "贾学鸿"
+      ],
+      "source": "河北民族师范学院学报",
+      "year": 2026,
+      "issue": "2026-02-02",
+      "cited": 0,
+      "downloads": 187
+    },
+    {
+      "seq": 56,
+      "title": "农业文明视阈下《 诗经 》的植物祭品书写",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2LY13ZcIKLNlw_n0bEAS9oySgKC1e8fiUPdIUeRPAHS8nHN2SmSodAYt6ZFzRVg6Fzl1zDTfIYNBATNLH7HRBTbRsfQHEKpOaPshbBhG4lSP8iv6ZgZeZNx2jGSwkPwZotBZbGvRgDqfZPCQcbtghs8RnCQnbgMXqkOGXL7zvkig==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "康静怡"
+      ],
+      "source": "名家名作",
+      "year": 2026,
+      "issue": "2026-01-08",
+      "cited": 1,
+      "downloads": 144
+    },
+    {
+      "seq": 57,
+      "title": "《如何阅读中国诗歌》中《 诗经 》译介策略研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2LY13ZcIKLNlw_n0bEAS9oySgKC1e8fiWb0ZAuZXUFny8aHxpU5htCq1GpjdUTMj9OvX0o5puBCYz01wzvZHqB_yvARuDtWfqrcyX2N6e6DETKrCDwngHElcm8ylXLrwKaaSYW4APn0pIf2whXOKZ_9LTc7LBVKdiwkBEFnFMH_w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "左岩"
+      ],
+      "source": "佛山科学技术学院学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 41
+    },
+    {
+      "seq": 58,
+      "title": "《 诗经 ·国风》植物意象的感官书写与女性形象研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3GLExd2LjA0M42zrqYDiXdMd9imFxjoGl9AB2_g--dS8IWTqAzlOEUIyLdlQEuwuQ9vnC7Vogte3WH_I4Pawa6j-XzkmFlVSJX_jSYc0MzTdhkA3lDY-8uToohZOXzhFc3W7XGBd0eiSFdt4psBvRUb8ReIMbEGNnALq_YUH0shw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "赵颖君"
+      ],
+      "source": "今古文创",
+      "year": 2026,
+      "issue": "2026-06-02",
+      "cited": 0,
+      "downloads": 96
+    },
+    {
+      "seq": 59,
+      "title": "元代《 诗经 》学与元人诗歌“风雅”论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3GLExd2LjA0M42zrqYDiXdMd9imFxjoGkPIwKWx0DphK5XSMEjpxQc2rp68QJeFMh_6PDwMiz3O3KLsk4bx73Q_n-qZnnLuiFMf5d7qviNDyHJsEM6wKZ5AQyzCh_bKC8Mnu_iZFEHOpOCC78k5Fq0unzoN22Kwl_4agztCHqljQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王珏"
+      ],
+      "source": "河北学刊",
+      "year": 2026,
+      "issue": "2026-05-01",
+      "cited": 0,
+      "downloads": 84
+    },
+    {
+      "seq": 60,
+      "title": "《 诗经 》所见商周政治伦理转型:以“德治”兴起为中心",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1ULOsQ2pAs3NSrEMkZXjwyyh70gIyc97M1jDLoDtutULdZS4USNMCPqBLTQ38wIF8wEIEnY_KYY97bvvWMAoMSFpEcROXC7-hfDrzL3MqUotjOgZMUBIHDTeWKl1dF9hRT2cHjhAie8rD7kvd6krrUPRQv40-M5sxcrLD18DxhvA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "成家馨"
+      ],
+      "source": "文化创新比较研究",
+      "year": 2026,
+      "issue": "2026-03-21",
+      "cited": 0,
+      "downloads": 11
+    },
+    {
+      "seq": 61,
+      "title": "《 诗经 》中的经济密码",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3uiTFMO3OF6KaaxNCOwPwD4v5wRaurQ_7FOzbouRmhRyB9kdFGnDb46B6xTRta_c41GeQ5ggNNHOF04dumhIsGiltiFBkqOeqzfciBhRA2LMvI-odOM1dfvs5qYJPfHuq7p-HU011qcdQ0ixsoI8aB0kiDKyxWSRqbgoFfQN2r9A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈永伟"
+      ],
+      "source": "群言",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 29
+    },
+    {
+      "seq": 62,
+      "title": "《 诗经 》中的植物意象研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3uPFk42hMXD80I4gwOSh-EQhHeqHjfU_Juppj01dkvSqeCBc2hENyfKRyhYXklJUy3x95N0Xktu5yfqZ5cW4-Q0Ud1HS7vl3xflL80KP0zywC0YoEbyDbhogtcqe4RFRjMooEZNOlSZkwlxmRaI0C3FpPZciCyWUAMwLsWXJMstg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "顾玟嘉"
+      ],
+      "source": "今古文创",
+      "year": 2026,
+      "issue": "2026-03-24",
+      "cited": 0,
+      "downloads": 616
+    },
+    {
+      "seq": 63,
+      "title": "从《 诗经 》到“唐诗”：古典诗歌审美传统的演变轨迹探析",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3uPFk42hMXD80I4gwOSh-EQhHeqHjfU_KrGMpNJgXl7q7VtfJZ8Pe5zXttVz5e-4-mflDhzYTKnRKnmcc-_OayjVIC0LGkCAHkSlgYDvnI4uzzlHUYgoDSE2AbMKYWc1QuuZz8KdzrXbZdZGpWHYIyCLDxa7p4Guq4WZB_4C5hWQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "郭经经"
+      ],
+      "source": "名作欣赏",
+      "year": 2026,
+      "issue": "2026-02-28",
+      "cited": 1,
+      "downloads": 215
+    },
+    {
+      "seq": 64,
+      "title": "《 诗经 ·君子于役》：从“鸡栖于埘”到“不知其期”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2uBIQacLk_hZ1kMD2-_DwrXEN7plfGUAJ00RWRyQaTddDQ9ZDc_Y7BX1ZA9DFj_hxuOG_IJgryJDrptfBwbaI7n3kGMyDHC6AgbSjAfZCJ5TzpaM4r7moQk3-ndq39nw6AUiSndFt-xrp39EeobMhhIvHbC9Tdlu0Zwt30NVOpkA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "杨思佳"
+      ],
+      "source": "中原文学",
+      "year": 2026,
+      "issue": "2026-01-10",
+      "cited": 0,
+      "downloads": 42
+    },
+    {
+      "seq": 65,
+      "title": "试析《 诗经 ·邶风·静女》“彤管”之义",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2uBIQacLk_hZ1kMD2-_DwrXEN7plfGUAJzdyjTBzGgHV0yfWWrEV9PUHXB92top18fnltytFf-8-toDj3OkBmrgFRxS_Pi_PV9TLWyagqzY8y1An4Cbo65tzo-KX5RhYUfZqLTyfJMnXeqJgWLJqPlLPDbuOAFUFKJBhv1ZJVUFA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张力元"
+      ],
+      "source": "名作欣赏",
+      "year": 2026,
+      "issue": "2026-04-28",
+      "cited": 0,
+      "downloads": 65
+    },
+    {
+      "seq": 66,
+      "title": "学院与民间——阿袁《小 诗经 》中的雅与俗",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2uBIQacLk_hZ1kMD2-_DwrXEN7plfGUAKLV0ziGsmJpbkBqQtG1UEdrIs0RSCeczM_H6n5bnZb93YVBOtxtLuw-IQto9uzQqw9dG-CaRV8CInACirpRvJ-cDKCojjF810BKmnV6upAXo6tXoejXvCdojGzWnwUUTPkkWll9m9d8g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "尹子仪"
+      ],
+      "source": "创作评谭",
+      "year": 2026,
+      "issue": "2026-01-05",
+      "cited": 0,
+      "downloads": 27
+    },
+    {
+      "seq": 67,
+      "title": "以史证诗，以礼解义：杜预注对《 诗经 》毛传郑笺阐释维度的拓展",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1fYO2-NuxhCuAZ6jkziKnSdLQxNXFHcwWAvAw6RmIvt1eTlao40JE7O2OxRTzLwtVIAnSez0b7KwDT4q23TJ8AA4pq9B62LtYqIiQ3U4PUlvF3rebw56yxsc633R_Oi3Td224Dgi86TV2RuwIoZo4cngsqhr-hy7MUJwY3s9xEbw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "赵萌萌"
+      ],
+      "source": "古典文学知识",
+      "year": 2026,
+      "issue": "2026-01-28",
+      "cited": 0,
+      "downloads": 14
+    },
+    {
+      "seq": 68,
+      "title": "吐鲁番洋海一号墓地出土《 诗经 》残文考释",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1fYO2-NuxhCuAZ6jkziKnSdLQxNXFHcwUxSbVQ7jN1GuLVeq0OPFogVFiQs9BZUMUmdo-i54r9T-P4eRqHhI-Z7ay5bDs8Wycm5RLb9ZKoAb_ZViZ9HtRyraZ5MC1wlmn4B5TX_ZiVAy4kCbomWhNQcyzY0RbMeu4t5Ll1bm_TVQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "梁敏娟"
+      ],
+      "source": "吐鲁番学研究",
+      "year": 2026,
+      "issue": "2026-03-20",
+      "cited": 0,
+      "downloads": 10
+    },
+    {
+      "seq": 69,
+      "title": "惩创说：从《 诗经 》学到通俗文学功用论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1fYO2-NuxhCuAZ6jkziKnSdLQxNXFHcwVmuwte0fF_KAIMCPq5EchUgIfRUrq2yRMS3bTrGHVpUg1sZFVjW9VEP4eI5ltH_tv8qUbqE4H9xXqpFsnzipmAPK4xxUjxzbUzTOrMIeRDU9sd-H6w4_ro_MEIdgxKRDP90Om2ys198Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "周兴陆"
+      ],
+      "source": "中山大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 186
+    },
+    {
+      "seq": 70,
+      "title": "王夫之《 诗经 》阐释的诗史关系探微",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0wTT7otVOojLusBeoRb2cKsCeLhURBpLokhQP5i4yWu7dPdUokvvP1eKXvApM60MF8kJ0ihpSsRW7ZtGrLLTk5PsaRrZ_3gMmK_ThioEi1AOglZKm8VdOV_IIHvYqSTD7EkCF4DKlLUp6LhLSXOmTyXuFT6OxKQGH1wiPmFnYIOQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "周阿红"
+      ],
+      "source": "衡阳师范学院学报",
+      "year": 2026,
+      "issue": "2026-04-15",
+      "cited": 0,
+      "downloads": 21
+    },
+    {
+      "seq": 71,
+      "title": "基于语料库的《 诗经 》三译本翻译特征对比研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0wTT7otVOojLusBeoRb2cKsCeLhURBpLqBab3nypLkmrQbpqB6W55Bte8GW3D4lxWkvQuOab0jTxnHaRQkHhzlEAAklPPb3yPMzJhEUqAtkwUqH_nk-AOBQ2toy7FKUJa-US8I5qwMAgeonqmDI5WahtL5SNv-1xS-oLuf0tSnQg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "杜洋",
+        "刘凯"
+      ],
+      "source": "滁州职业技术学院学报",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 22
+    },
+    {
+      "seq": 72,
+      "title": "社会功能:《 诗经 》整合教学的出发点",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3fM0Ml23f91HAEf3ALMCQUaniB_uow-YnjRplV9GCCGNMKwxLEAvMvwRZtMaBC-MinP9nqbLqglS_i0mH5iSIkxjZJLlqpfzX6l1qgCcRq95PuauzFlGb2REtGqlG6dDadutyJpU9aVxzpC42hczEo9KbiLlRvUomAuJfxEizs4A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "栗仪"
+      ],
+      "source": "中学语文教学参考",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 49
+    },
+    {
+      "seq": 73,
+      "title": "《 诗经 ·汝坟》事义与二《南》的纂集",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3fM0Ml23f91HAEf3ALMCQUaniB_uow-YlfOKmgqhR5xLoZeyZgIvk-uvCOBB7Lj2yqmaN8nRS2zLmCPiginYG2gmk86uAxQG3LNSgOTdl03zC0t26R6gNfBh0El5zbsChvekS5kQeQ81vV38s6F6bv5zwlXlcoDO68QoilOazzQQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "邵杰"
+      ],
+      "source": "河北师范大学学报(哲学社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 96
+    },
+    {
+      "seq": 74,
+      "title": "浅析《 诗经 》对女性的形象塑造",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2rudVC-1w06wDsPm99HRfqiTvhaSh2Mld8GC8VuSH9xwJjXoLWgYj3MLo9XGR-ATQaOfEp0B25fhaDt__yw4h30hWUV81mPQSV2Aawi4IH2TNAzg1aj2H22nxPymTsOIJx8O7YkDEepy5wid2Yo4DnMcJ3G5U6XpmszGeX-Dh5yA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "董峻池",
+        "孙德华"
+      ],
+      "source": "今古文创",
+      "year": 2026,
+      "issue": "2026-01-27",
+      "cited": 0,
+      "downloads": 507
+    },
+    {
+      "seq": 75,
+      "title": "《 诗经 》《格萨尔王传》比较：“诗史”与“史诗”内生的民族文化张力和精神要义",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2rudVC-1w06wDsPm99HRfqiTvhaSh2Mleyq_NjKTZGjTKRjz1IEVgb_jGpGxmwW8dNy4LPBxL9DdPyoMJ1ggaKfAt21KI0l0XsnQeX56y99HiDjUWfRDuL7IXsIHN5WZEp0WuNKUUTjaUrOgl5cphoz1M-m4ViESpvKGfrGd8amQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马敏洁",
+        "尹俊博",
+        "陈丹"
+      ],
+      "source": "牡丹江大学学报",
+      "year": 2026,
+      "issue": "2026-01-25",
+      "cited": 0,
+      "downloads": 91
+    },
+    {
+      "seq": 76,
+      "title": "同室争国与诸侯不令：《 诗经 ·王风·扬之水》与两周之际的政治危局",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK11ceK3Gm-rU60ckkxtGfz5wnJ8_Yz4YDaw1UwaVL71AfIx5wSuojRx4Z981JDTtCCzVaas6XG6XD24mRgiYipN7KfwFpXkSsr9qfu07BeDmxt5Ng5jkBSynG3Ev0mv3b2aSCHnG5DkizXWQPDUkYdsGBglHDCXbknhHTHeqqfAOQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王凯"
+      ],
+      "source": "中华文化论坛",
+      "year": 2026,
+      "issue": "2026-06-04",
+      "cited": 0,
+      "downloads": 37
+    },
+    {
+      "seq": 77,
+      "title": "《 诗经 》中的“XAYB”结构研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK11ceK3Gm-rU60ckkxtGfz5wnJ8_Yz4YDbSNvVpPjEt2Zjp5sgQDrhC5HyvgiDe2EyNCtsn2T08SNfuK_njVgyaqNBK2lL9QPfsSRs2QR3TyRzFrjIGhcPhsvGCd7ZTm3f0rODTvAWtBmgfbYnsiNhob45ZE7FQkG_H7wycmsWPTQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "杨作玲",
+        "王玮敏"
+      ],
+      "source": "汉字文化",
+      "year": 2026,
+      "issue": "2026-01-10",
+      "cited": 0,
+      "downloads": 55
+    },
+    {
+      "seq": 78,
+      "title": "《 诗经 ·草虫》中婚礼与祭祀仪式窥探",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1GDcTGWHWtSYGZ08B_PDkj5V0R5d1nb_cy4NdoC978zE91F9k67-dcYqiWkFPmqgfJrJoI9nucvGdo4KcDoFvCnvE9q6BDLmudNbctd_eVgQI5u4spqXX4U5Mg4TrAqSHuVtNei-882adaA-niRPWSPvJEZPvTzHa52sXv-v1MLg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "黄意涵"
+      ],
+      "source": "中原文学",
+      "year": 2026,
+      "issue": "2026-02-10",
+      "cited": 0,
+      "downloads": 51
+    },
+    {
+      "seq": 79,
+      "title": "数智时代视域下中国古代文学传播意义与路径研究——以《 诗经 》《楚辞》《史记》《红楼梦》《山海经》等为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1GDcTGWHWtSYGZ08B_PDkj5V0R5d1nb_cpAsi3e4pHFYAblmhgjP4gIAXV0x79i27gn3RwP7zza0nyHFgNQNnVqwORcx7A-I3kzWFl3XiHX8cy1WaFVzy3fsnzIO7zVlSNrZcMIVAFNY17UGT9Z5w_J_iAGmPxGBMsh-HZtAf7nA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "鲁天智"
+      ],
+      "source": "古典文学知识",
+      "year": 2026,
+      "issue": "2026-01-28",
+      "cited": 0,
+      "downloads": 21
+    },
+    {
+      "seq": 80,
+      "title": "从《 诗经 ·陈风》诗行解码陈国兴衰",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1GDcTGWHWtSYGZ08B_PDkj5V0R5d1nb_e58hvcg-anfe2th3qgq6aHfBsY1V_hXU5rlmR0OgH49-bXs1UisvhWUYjyjJVkr6XJIpfkrzhvSa3NDm2J1EXjKVn0OfseIkhWqbLkmAHMMB7j0-yUPBAvd0zZgIeOmmc8vBOMYCAtmg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张广起"
+      ],
+      "source": "博览群书",
+      "year": 2026,
+      "issue": "2026-02-10",
+      "cited": 0,
+      "downloads": 13
+    },
+    {
+      "seq": 81,
+      "title": "从《 诗经 》地理建构到《汉书·地理志》的大一统书写",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3-pkMMwKoDINpF7A5dWfSz_CNH_6ZtSKWhFfoMbvNfOzuSChlLUr9CHHKmxCS8SoKTAfR43hXqInDepBRCVVH7h3kWnHxuWhaxzLGlGHUoUVwMGcb7p01f9Ezh09mIzxL5G4WCUhWJzT0UzkeX2Lp3WvgbrAsGUnDuDezIs11STg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王红娟"
+      ],
+      "source": "哈尔滨工业大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-02-11 08:55",
+      "cited": 0,
+      "downloads": 651
+    },
+    {
+      "seq": 82,
+      "title": "以译行事：“意象型文化术语”英译的多重行事功能初探——以《 诗经 》英译为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3-pkMMwKoDINpF7A5dWfSz_CNH_6ZtSKXfj3m9vQZlMWX_JbpNr71wH7Nmvh2kxIcEszfgnXR83KsMA9h5QHA1U-o2tYZ27xTQk1nPfyuTwgwSlS7jcbj8sEIOETjKs7X97cF1iHIIp4YXE8FczojMlQKtZ82ccm1Ycoe2dFeYkw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "梅龙",
+        "魏向清"
+      ],
+      "source": "外语研究",
+      "year": 2026,
+      "issue": "2026-05-18",
+      "cited": 0,
+      "downloads": 154
+    },
+    {
+      "seq": 83,
+      "title": "《 诗经 》天子“朋友”伦理阐微——以朝聘、燕饮与郊祀礼为中心的考察",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK25dWkocONIS2lkrWGcdr-arii3TlEIrUo6bRhtHrlJFB9jWcGEz_8xWhFYOMnuUMZ8aLn8QLhjh_qCREP256HHVQECdW0Qy27r0UvlzPXj5RMHjzAd1Opixd2ycsvwTQmHkK4yFcRxkV7KIRSJOzoeDDi0ITbpNB0F5bxApLc-bw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "白义洋"
+      ],
+      "source": "汕头大学学报(人文社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 25
+    },
+    {
+      "seq": 84,
+      "title": "从“颂”到“雅”的递变——以《 诗经 》祭祖、农事典礼诗篇为对象的诗礼关系考察",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK25dWkocONIS2lkrWGcdr-arii3TlEIrUp7dc03ZmWOq2Ia9SatvmlNC1PXJyhN7MYCfig6HBMxevcLb0KrchCe8ERMllf3z9X1FMv0JMviR_YEDXXWGXfd-7kinbOGSxvKR9JtZDhpc3kv0nqhpcZzdV1Af61EbNptesZ840Y9Xw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李山"
+      ],
+      "source": "中州学刊",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 266
+    },
+    {
+      "seq": 85,
+      "title": "论《 诗经 ·江汉》中的“王命”书写——兼论周代歌诗创制的“前文本”问题",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2M7GKEDTJoBoEg7NbumGREWLLj6ctVPEu9MY0PvFn5UxVS4exmcgyLNgaAvHAWMPZDZP4nh5bj4jDnU_1sbJ8Rac_UC2Fh0Uz4DykAoweBxkIMQr-XoVO8-QL_Oh2FEYon98d0yYydCp5HzsAvniPrhdE0ZWIsPcEmc_c8d6xQ2g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李辉"
+      ],
+      "source": "杜甫研究学刊",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 124
+    },
+    {
+      "seq": 86,
+      "title": "从《 诗经 ·氓》与《孔雀东南飞》看古代婚恋悲剧的产生",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2M7GKEDTJoBoEg7NbumGREWLLj6ctVPEu0ykYqXS9Z_5G8XgxEGMNpnyOIsJxUGeXgLajrBPB0kVPLzpOoX8rkqAXd5IBs1lJx0T1D6XNI3kHQpvWkrrpR_X_OFAXHCGt2UaYaqwWSkX6u4ki2xna-7dxXzSiXlCYW3NYD9LaZbQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐建芳"
+      ],
+      "source": "今古文创",
+      "year": 2026,
+      "issue": "2026-01-20",
+      "cited": 0,
+      "downloads": 871
+    },
+    {
+      "seq": 87,
+      "title": "中国诗学的起源及其概念性基石",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0jv748V2wW8SqSbuBy7_dvx-GQrtmj0P0D8XFWJkmVuYqUZUAeK-zPIXOwiUJLoQatGbUoZLos-j9L26_1TQYbvZuJYFUSsy0Nzfd0v8iZC2ZTQ6S489myaAhuZfHScZrRdgeNs4d20-UmWXlyfM4DTACqzBPW1PXj9h9AKyaxxg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "顾明栋"
+      ],
+      "source": "文艺理论研究",
+      "year": 2026,
+      "issue": "2026-01-25",
+      "cited": 0,
+      "downloads": 67
+    },
+    {
+      "seq": 88,
+      "title": "《 诗经 ·国风》女性叙述视角诗歌研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0jv748V2wW8SqSbuBy7_dvx-GQrtmj0P1KAkqZ5qwaY0qPU3BgZcZeZs3MTsaUd9ivkhrR7r4YlahfPE5gBLf2FBquUHm6SwFD-Au1TaSLtxPL62az7p8THi5eQcph8h8e_TlbggXNQC7XG6prmJBkvJRKBZeLSd3IS0Hhwh_xCg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "高昊月"
+      ],
+      "source": "嘉应文学",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 189
+    },
+    {
+      "seq": 89,
+      "title": "“以乐景写哀情”的极致——论《 诗经 ·小雅·采薇》末章的艺术魅力",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3C1d8akUjiBnzTnEMo59fwgL3pGKysxdkI6rzzRvVQha-GUfp3slYTyc9bILyyuNK1CT-bXf1USwgCoBq7t1amcOhy1PEmCKADFCH4hLxeBCPS5KwEIVMliSCa-CHuL7kmF5RmHYiIrRJsewFEIQq75fyDIeNWt_ZzjYx540EfxA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李力"
+      ],
+      "source": "名作欣赏",
+      "year": 2026,
+      "issue": "2026-04-28",
+      "cited": 0,
+      "downloads": 65
+    },
+    {
+      "seq": 90,
+      "title": "安大简书《 诗经 ·秦风》识读补充校释评议",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3C1d8akUjiBnzTnEMo59fwgL3pGKysxdnq4cIPDyU0WMOOOpsmcyRk9Ieq5eWG9JtaM-3KYLDOEy63bKUpjn5N2XZyEVpSxYdjesp1N-akEFkgsX75jjnZXD83z7xCZC5o1vIctZELx3nJva3uaBSsY0aVi2PVc9Uihy2om69s1Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "白政民"
+      ],
+      "source": "汉字文化",
+      "year": 2026,
+      "issue": "2026-01-10",
+      "cited": 0,
+      "downloads": 96
+    },
+    {
+      "seq": 91,
+      "title": "《左传》赋《诗》的文本意义",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0lP_G7aIpOIqbAjDY2GYGaUGQX4Mz5goR-6vWSUrb9EJhvbH2TzJoGgHYHlrsROdqEpSL5yZalMGeYiprZM1KoUj1uUh0q9-7w6azcfBUZz-2yh_qHGk0afJZ_UOshbqO7skPxras1bmBZfVFPTjv0Cj7k-QZu-A5ud1_VSBB0gw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "辛甜甜"
+      ],
+      "source": "名作欣赏",
+      "year": 2026,
+      "issue": "2026-05-21",
+      "cited": 0,
+      "downloads": 40
+    },
+    {
+      "seq": 92,
+      "title": "小毕欧汉学贡献的中外比较",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0lP_G7aIpOIqbAjDY2GYGaUGQX4Mz5goRaTOH7IessEG10-JpIozqknM-P4vwuVIUlophOkyLndPIIHEAR9J2rt0jjzeGFIoB_vpWIJJR88dwAs2kX_FLI_BgmoYq4Kd3gTKm8dKsA_iJuan0bFXSpAUmvDL35lviEbPVtpljSww==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "屈凯"
+      ],
+      "source": "文化产业",
+      "year": 2026,
+      "issue": "2026-05-25",
+      "cited": 0,
+      "downloads": 2
+    },
+    {
+      "seq": 93,
+      "title": "上古汉语状态形容词研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK105gWDoZeDSVWMFEMe6BAlqRM6kwImMfVSNferLvzMeCkmfPlZfl8zpTFNjUW1bE6JboFjtxupZIUyS6pXdLynhtY0kBgmySXuKmKfXiahE2owIkZNmAPyB4P3dvxiKPQB7gLGgCs5JIz6lLyaIcYN9aEw4EarrZtCl02RM9gk5Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘欢"
+      ],
+      "source": "文化创新比较研究",
+      "year": 2026,
+      "issue": "2026-01-01",
+      "cited": 0,
+      "downloads": 92
+    },
+    {
+      "seq": 94,
+      "title": "“声贵说”与郑樵的诗乐观",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK105gWDoZeDSVWMFEMe6BAlqRM6kwImMfUsROsxXpt2cbf8dnHJ4zgwC6Jc1nFMcoxzH6ndP395tPQ3x0wR1W2KnSdMwJhNV6QZf2_t5In3C-9Yg2Zn4b0tWHR4l3lv57j1Jw9F5B3CX21YLUxyzrpfqzftII65ydsUooCwJKbekg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "郭丽",
+        "张晶"
+      ],
+      "source": "艺术评论",
+      "year": 2026,
+      "issue": "2026-01-20",
+      "cited": 0,
+      "downloads": 78
+    },
+    {
+      "seq": 95,
+      "title": "明传奇引《诗》的经语衍义与典事造境——以《六十种曲》引《诗》剧语为考察基点",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK105gWDoZeDSVWMFEMe6BAlqRM6kwImMfWoOs-ljKdEY96SmVCT5wP2rrgaD65ADzOnHNx6kTl3KTe_XXz5V2R1p6yAOCHgKOqjsLVFZO10xuf-RU3-8gRgf6O_Du3HwyqA4LmiF2C4_NUqSSFgsBfsR29xFFLYLeCOqOWWvaKFIw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "丁淑梅",
+        "陈麦歧"
+      ],
+      "source": "江汉论坛",
+      "year": 2026,
+      "issue": "2026-04-15",
+      "cited": 0,
+      "downloads": 42
+    },
+    {
+      "seq": 96,
+      "title": "从安大简《诗》看《毛诗》经典化过程中的重要参与者",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK27A6Eqmp5cvG_FVH579hKQZkExRyLQWgdAtNIw1g-Cz8diDFvXe27lijcXXXbcxgMVu37lFmh-vIT6wum6PFjvTRs8dCki5xrkKQAJ2mDSPDAf1XXBPbJK2dAFxt3UnLxvUQoF4SSzTyRSxN1PNK85PGeEJhyWdPySaSYgcBHJEQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "夏大兆"
+      ],
+      "source": "北方论丛",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 169
+    },
+    {
+      "seq": 97,
+      "title": "十五国风无“燕风”考辨",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK27A6Eqmp5cvG_FVH579hKQZkExRyLQWgf4QOdRMx0ib_BivkTSIhe3MHGiF6KOVzB5eUU0D85usY7ADq59fvntlXFEaS5u5JERoqgvg1Ubmi5KzH84dq4u94g88EqZKtn9zREaXcizXLOXgH2gppQsdqauS6YpswA62beTVW1_BQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "唐帅"
+      ],
+      "source": "安康学院学报",
+      "year": 2026,
+      "issue": "2026-04-20",
+      "cited": 0,
+      "downloads": 41
+    },
+    {
+      "seq": 98,
+      "title": "祝尧的屈宋辞赋批评",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0GzJDqqPBIhYlwtiLrNISLRQr85e7upqwcTp2E4OvhAWhDRmCyJKqMZNlnZl0vePsa9xZ3sUlSIG44rmPKxSVP8NF0VMMVADbRVfq62DRy9VsQwTLlFhDcZ8lRs3gHYhxd76G-c6cljIBZTqsrBsv8TkAF6BE4YVXReWtAnMwPBQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "于信"
+      ],
+      "source": "辽宁师范大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-20",
+      "cited": 0,
+      "downloads": 51
+    },
+    {
+      "seq": 99,
+      "title": "屈原的诗体试验与“骚型”篇制系统的新变",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0GzJDqqPBIhYlwtiLrNISLRQr85e7upqwSYjWx-cZlaVDFIzAZQ1IXL_k3ucSl597EtiUD6RxjENX1G_CReHoUOvJbqp-_QpL9r5AsZa-B2mOhk4ozgSgGTIL9nsLRihZ7cJz0FNMsscNJ3J4bkZPy6CqIbULl7Gn7RFLGdivUrQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "叶汝骏"
+      ],
+      "source": "汉江师范学院学报",
+      "year": 2026,
+      "issue": "2026-01-30",
+      "cited": 0,
+      "downloads": 114
+    },
+    {
+      "seq": 100,
+      "title": "“兕觥”的实名考辨与设计学思考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1zvcKOTe8Iq22-AONFxH7lyeJFPCLe9MaEejvMkrVgzqxQHe_tfthMA8CQiLBthZPnY2tBGEg8A1-Ond2etLlUavdiatLKio_kIlOOt_wuhaYW-ovrtzN5qDocrhr4kGh0PrqwWHYFXfr0kxSbheZ_v3FG_Wn8bY8v_9I2jW45bw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "黄大昭"
+      ],
+      "source": "南京艺术学院学报(美术与设计版)",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 147
+    },
+    {
+      "seq": 101,
+      "title": "论元末江南的纪乱诗",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3L5W-TUJ4HXOtPhonmfusfVoIEbIzX2qHBY-1IZPiJmqQvr1hLXnVvE50uSZrhXT9Tv7dRAiskGGmB3p3IWUBOibx2xhpKe72z32NuDRNEtpVckefIVFt-rgVNKnMGrQBkLCTg5-eDEytTykHT5BwBupobKgz8RFTHZMJ55UrzuQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张建伟",
+        "张颖"
+      ],
+      "source": "湖南大学学报(社会科学版)",
+      "year": 2026,
+      "issue": "2026-01-28",
+      "cited": 0,
+      "downloads": 181
+    },
+    {
+      "seq": 102,
+      "title": "试论白居易诗歌对“诗骚传统”的继承和发扬——以白居易《长恨歌》为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3L5W-TUJ4HXOtPhonmfusfVoIEbIzX2qFmYKtMDOqYQT1_IA8PlP7VnJ6mLMsdo4GNfqCf1DeaWThPmUAVkTMqk19QJXPV1ktfN4oW6DWISf6co-tHBfZTm_Jli3u0Q6Mp00HKfYjLpBjRyaYF_8H-hiTY6TquviPONA0nA59lHA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "常林"
+      ],
+      "source": "名家名作",
+      "year": 2026,
+      "issue": "2026-04-28",
+      "cited": 0,
+      "downloads": 64
+    },
+    {
+      "seq": 103,
+      "title": "褒姒祸国形象演变考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3WJhWgtf8M9MCsRmHdFoTi4YHGIfqsQStlwTI2ISCnxnlyIbv75VeLU0NV1y_-qq6V1TH4SQZgdCt-12f0AnFdEO1RqBUPTEhWMDyDMlAiPTFNIb0V3iO4QIeePbF7sNPdk0rIfxnsh06y4BLkNoKIzXzdNKXZYP0vm5cC_hFkMw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘娟",
+        "唐定坤"
+      ],
+      "source": "衡水学院学报",
+      "year": 2026,
+      "issue": "2026-06-08",
+      "cited": 0,
+      "downloads": 11
+    },
+    {
+      "seq": 104,
+      "title": "先秦儒家“慎独”思想及其对培育青年道德人格的启示",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3WJhWgtf8M9MCsRmHdFoTi4YHGIfqsQSuuvdsFr0t3S6R1yHclkp9KSNnBVzr0tGV1uaODY-9RV3EPxfSwgdycX7p2Y1B1sqOcns2-19SgCS0DjXBkdsC2S9BRv1Xbm2vxjiVNhZVM-IRnoteSKzvO562AvjaiDa1XkqDUl_ei8w==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "于云"
+      ],
+      "source": "晋中学院学报",
+      "year": 2026,
+      "issue": "2026-02-25",
+      "cited": 0,
+      "downloads": 174
+    },
+    {
+      "seq": 105,
+      "title": "讲好中国故事 构建中国展法——以苏州博物馆“关山戎马到江东——甘肃马家塬遗址出土文物展”为例",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3WJhWgtf8M9MCsRmHdFoTi4YHGIfqsQSvviYPArIpUZbfw2DMzCMjpReSd6AYvnuu2JHVaXhkwdgKsZiDgvb996Gzqdx758HLvz49jXptsJZ_oei7wsf6wLkpZ2a1K_7_UmjIvTDCt07HyBZIVAKQhrsQaZWmp-EagMPD9IT1fiw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张希"
+      ],
+      "source": "文物鉴定与鉴赏",
+      "year": 2026,
+      "issue": "2026-04-30",
+      "cited": 0,
+      "downloads": 34
+    },
+    {
+      "seq": 106,
+      "title": "中华优秀传统文化国际传播中主持人的叙事重塑研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0cYvvMl4Y9qilAI8Itapja4TERCi9cj-7U_d2lhN-Xw--0IjJBAsLZ0MxZTC85ooqDAG81imFZtCNQhDJTJQcwdTyHwb6-WYzABsuf9wp9Yy81RJzho94jruKa43dUG5S5qDASTBlcQQfzlvm0f19JyA0TmpFSkRkK6YH0iriYPg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘昱宽"
+      ],
+      "source": "文化产业",
+      "year": 2026,
+      "issue": "2026-06-05",
+      "cited": 0,
+      "downloads": 10
+    },
+    {
+      "seq": 107,
+      "title": "谁是“中国抒情传统”的发明者？——“清华学脉文论”的奠基性创造",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK28OIODXzbuyBZ_-BhsY_cjQt16WXftEu0ERrFUUbemwrTupVURkYQlIiBvocOkPT9yyj6xOPtCik0xAQxRlJoMVrDQhLxvWIu5fGtwg2lsAi-ce28UrjUfQYyhHPuK2c8SMCjDQFzoQpE5YV3gh-Ay8mhPAuyxQdwB1NEEdk3lrA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘锋杰",
+        "李先国"
+      ],
+      "source": "南方文坛",
+      "year": 2026,
+      "issue": "2026-03-05",
+      "cited": 0,
+      "downloads": 115
+    },
+    {
+      "seq": 108,
+      "title": "“樂”:从通神之仪到成德之教",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK28OIODXzbuyBZ_-BhsY_cjQt16WXftEu3Az-M4V2jyC5CSkeH1pjhl4ahJhsnh4P1IbB8I5V2MromJxhxq2x-xhgLCfPhAtSxXrMO4JzaPTMuri-EMPcxc_1TjJpgVZvz6NleMV-Uw15oVhS-7SpVYjLpGPwke1VhgzoHTRHZLVA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐嘉"
+      ],
+      "source": "南京大学学报(哲学·人文科学·社会科学)",
+      "year": 2026,
+      "issue": "2026-04-25",
+      "cited": 0,
+      "downloads": 10
+    }
+  ]
+}

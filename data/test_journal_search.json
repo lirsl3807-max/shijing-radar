@@ -1,0 +1,84 @@
+{
+  "query": {
+    "q": "文史",
+    "field": "topic",
+    "from": 2026,
+    "to": 2026,
+    "types": [
+      "journal"
+    ],
+    "sort": "relevance",
+    "size": 5
+  },
+  "total_hits": 55,
+  "fetched": 5,
+  "results": [
+    {
+      "seq": 1,
+      "title": "新文化运动研究： 文史 结合与跨学科视域——欧阳哲生教授访谈录",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0Wem7SjVbwGrUQh-7iQRiPXgf-qeHWHAHyDBD6L3YYmEYdYbwQ_paOE1nqGkq3iRcvULobJ44co2IupOSMLcwJH8yoeBsXsUbgcyz3k331VDrm8kCzk17muIlYeEVSUV05phbNIGwokFjCkrJZln--HcBP-ZVICg-YwSkLnTuLRA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张一凡",
+        "欧阳哲生"
+      ],
+      "source": "文艺争鸣",
+      "year": 2026,
+      "issue": "2026-05-25",
+      "cited": 0,
+      "downloads": 12
+    },
+    {
+      "seq": 2,
+      "title": "出版社 文史 类学术公众号的传播现状、问题及优化路径研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0Wem7SjVbwGrUQh-7iQRiPXgf-qeHWHAFFSpXaxILbCs62V0PULtFqtQG7uYrOkIiQFCAJ8L6Rt6ueLJBlE_nUqqP4Wc7UenrtbKDUgH8YBfr-HyKRU7xmZEcTSV-8_vDlpYIzGGmVUDBz_vBv8SWwPJ5Iieu2d4Sn2M--vrjFnw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李少华"
+      ],
+      "source": "新闻研究导刊",
+      "year": 2026,
+      "issue": "2026-05-25",
+      "cited": 0,
+      "downloads": 1
+    },
+    {
+      "seq": 3,
+      "title": "发挥政协优势 建好宛平 文史 馆",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0Wem7SjVbwGrUQh-7iQRiPXgf-qeHWHAGTMVO0QbSb0fhRGwfpjfAAsxBzfI1TbpgsJorxkBMCASYvKlgCzZ-POfDyuhedInTH0Quz0PFVTv_8Cr4wPtl7maatfCWq8niFbHuo1e9XympCQQ3ZXX0au0jZcimcr-j-gUTxEc7M8g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "source": "北京观察",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 2
+    },
+    {
+      "seq": 4,
+      "title": "“学习贯彻习近平总书记给《 文史 哲》编辑部全体编辑人员重要回信精神”笔谈",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1QnNneYvtamPYPuldhG--QCOrOFDglEY5OCVPxxTjaq_hIL6IuVXsxB1EJlqatu7zVRQPmDZVkF0JPUwMu8UvMcazDrHZ4H1LamCAr0V8TGz7xxnfUvjZpmLNtS4XtxJkNmJsZduhSvJzoXVC8RWXJo6xfF0vOwd3kOf_5hnZokw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "黄永林",
+        "安德明",
+        "萧放",
+        "宋俊华",
+        "张士闪"
+      ],
+      "source": "民俗研究",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 18
+    },
+    {
+      "seq": 5,
+      "title": "守正创新铸文脉 凝心聚力启新程——2026年省政府 文史 研究馆工作会在成都召开",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1QnNneYvtamPYPuldhG--QCOrOFDglEY5_i4xm5ASa0nzfUSwIscqNFt79ILibhCceHbBxmEUfVQTgTOj67Jn6N_B5Xu5ZfTImZWnhxYC8vBhc_sUZTWyhWGh4vPTw6K-SDCWUROkU67aNaFbILimxmc65eQfXjOF5U93-9wvEKA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐曼"
+      ],
+      "source": "文史杂志",
+      "year": 2026,
+      "issue": "2026-05-05",
+      "cited": 0,
+      "downloads": 3
+    }
+  ]
+}

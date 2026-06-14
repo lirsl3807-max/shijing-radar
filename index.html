@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>诗经学文献雷达</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, "Noto Sans SC", "Microsoft YaHei", sans-serif; background: #f5f5f5; color: #333; }
+.header { background: linear-gradient(135deg, #8B0000, #CD5C5C); color: white; padding: 30px 40px; }
+.header h1 { font-size: 28px; margin-bottom: 5px; }
+.header p { opacity: 0.9; font-size: 14px; }
+.stats { display: flex; gap: 20px; padding: 20px 40px; background: white; border-bottom: 1px solid #e0e0e0; }
+.stat-item { text-align: center; }
+.stat-item .num { font-size: 28px; font-weight: bold; color: #8B0000; }
+.stat-item .label { font-size: 12px; color: #666; margin-top: 2px; }
+.content { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+.article { background: white; border-radius: 8px; padding: 20px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: transform 0.1s; }
+.article:hover { transform: translateX(4px); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+.article .title { font-size: 16px; font-weight: 600; color: #1a1a1a; margin-bottom: 8px; line-height: 1.5; }
+.article .title a { color: #1a1a1a; text-decoration: none; }
+.article .title a:hover { color: #8B0000; }
+.article .meta { font-size: 13px; color: #666; }
+.article .meta .authors { color: #444; }
+.article .meta .journal { display: inline-block; background: #f0e6e6; color: #8B0000; padding: 1px 8px; border-radius: 3px; font-size: 12px; margin-left: 6px; }
+.article .meta .badge { display: inline-block; background: #e8f0e8; color: #2d6a2d; padding: 1px 8px; border-radius: 3px; font-size: 12px; margin-left: 6px; }
+.article .footer { margin-top: 8px; font-size: 12px; color: #999; }
+.article .footer span { margin-right: 15px; }
+.filter-bar { padding: 20px 0; display: flex; gap: 10px; flex-wrap: wrap; }
+.filter-bar input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; width: 200px; }
+.filter-bar select { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; background: white; }
+.filter-bar button { padding: 8px 20px; background: #8B0000; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.filter-bar button:hover { background: #a00000; }
+.empty { text-align: center; padding: 60px; color: #999; }
+.empty .icon { font-size: 48px; margin-bottom: 10px; }
+@media (max-width: 600px) {
+  .header { padding: 20px; }
+  .header h1 { font-size: 22px; }
+  .stats { padding: 15px 20px; flex-wrap: wrap; }
+  .content { padding: 0 10px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📖 诗经学文献雷达</h1>
+  <p>自动追踪 CSSCI 期刊中的《诗经》研究动态 · 数据来源：知网 CNKI</p>
+</div>
+
+<div class="stats" id="stats">
+  <div class="stat-item"><div class="num" id="total-count">--</div><div class="label">总文献</div></div>
+  <div class="stat-item"><div class="num" id="journal-count">--</div><div class="label">覆盖期刊</div></div>
+  <div class="stat-item"><div class="num" id="year-range">2026</div><div class="label">年份</div></div>
+  <div class="stat-item"><div class="num" id="update-time">--</div><div class="label">更新于</div></div>
+</div>
+
+<div class="content">
+  <div class="filter-bar">
+    <input type="text" id="search-input" placeholder="搜索标题、作者..." oninput="filterArticles()">
+    <select id="journal-filter" onchange="filterArticles()">
+      <option value="">全部期刊</option>
+    </select>
+    <button onclick="filterArticles()">搜索</button>
+  </div>
+
+  <div id="article-list"></div>
+  <div class="empty" id="empty-state" style="display:none">
+    <div class="icon">📭</div>
+    <div>没有匹配的文章</div>
+  </div>
+</div>
+
+<script>
+let allArticles = [];
+
+fetch('data/academic_radar_data.json')
+  .then(r => r.json())
+  .then(data => {
+    allArticles = data.articles || [];
+    render();
+  })
+  .catch(err => {
+    document.getElementById('article-list').innerHTML =
+      `<div class="empty"><div class="icon">⚠️</div><div>加载失败：${err.message}</div></div>`;
+  });
+
+function render() {
+  // Stats
+  document.getElementById('total-count').textContent = allArticles.length;
+  const journals = new Set(allArticles.map(a => a.journal));
+  document.getElementById('journal-count').textContent = journals.size;
+  document.getElementById('update-time').textContent = new Date().toLocaleDateString('zh-CN');
+
+  // Journal filter
+  const jf = document.getElementById('journal-filter');
+  jf.innerHTML = '<option value="">全部期刊</option>' +
+    Array.from(journals).sort().map(j => `<option value="${j}">${j}</option>`).join('');
+
+  filterArticles();
+}
+
+function filterArticles() {
+  const q = document.getElementById('search-input').value.trim().toLowerCase();
+  const j = document.getElementById('journal-filter').value;
+
+  let filtered = allArticles;
+  if (q) {
+    filtered = filtered.filter(a =>
+      a.title.toLowerCase().includes(q) ||
+      (a.authors && a.authors.toLowerCase().includes(q))
+    );
+  }
+  if (j) {
+    filtered = filtered.filter(a => a.journal === j);
+  }
+
+  const list = document.getElementById('article-list');
+  const empty = document.getElementById('empty-state');
+
+  if (filtered.length === 0) {
+    list.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  list.innerHTML = filtered.map(a => {
+    const url = a.url || '#';
+    return `<div class="article">
+      <div class="title"><a href="${url}" target="_blank">${escapeHtml(a.title)}</a></div>
+      <div class="meta">
+        <span class="authors">${escapeHtml(a.authors || '佚名')}</span>
+        <span class="journal">${escapeHtml(a.journal)}</span>
+        ${a.cited > 0 ? `<span class="badge">被引 ${a.cited}</span>` : ''}
+      </div>
+      <div class="footer">
+        <span>📰 ${escapeHtml(a.journal_full || a.journal)}</span>
+        <span>📅 ${a.year || ''}</span>
+        ${a.downloads > 0 ? `<span>⬇ ${a.downloads}次</span>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+</body>
+</html>

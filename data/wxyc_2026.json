@@ -1,0 +1,576 @@
+{
+  "query": {
+    "q": "文学遗产",
+    "field": "source",
+    "from": 2026,
+    "to": 2026,
+    "types": [
+      "journal"
+    ],
+    "sort": "date",
+    "size": 43
+  },
+  "total_hits": 43,
+  "fetched": 43,
+  "results": [
+    {
+      "seq": 1,
+      "title": "论谢灵运诗的制题艺术——兼及《文选》李善注引“谢灵运诗序”释证",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2jTCk3rTdsLXNyhVmreL46lTAa7uXyB9InISMl8PXkg48HChEcSJCY2frSs3TUfhRbVQgN9RgKx6KS9JNOvGFcSnYUaWWNskLFc_Ovgujmaj1mMNiAZoqyVSlb4fQnr88gltRvVy2uDy40dd2nQOiTyqw4jlp4-TLCc5NooD38sw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李成晴"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 527
+    },
+    {
+      "seq": 2,
+      "title": "唐五言诗对偶联的句法谱系与审美特质",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK290uturAzXCS3XviMuSRyxEQ6RLN0J3j-U0_Zh6cXqA8IHGQT-hOB41jJFYFnFldmltEcPgFwJyXxjKx7yy0FcGIO0EtKtuIFpWaITsJ1c8mueuy1GfjX1vxlbjC7l77GNMQcdtrCL3LLLDJS6zLlWxLqIyfD9yc_QF0wOnkJgYg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "蔡宗齐"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 208
+    },
+    {
+      "seq": 3,
+      "title": "深刻总结中国文学史自主知识体系建构的成功经验——文学史自主知识体系建构暨“中国文学通史系列”再版学术研讨会综述",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK290uturAzXCS3XviMuSRyxEQ6RLN0J3j-U0_Zh6cXqA8IHGQT-hOB4bx1wAOuW6s7Ob3aGuVOHKOadIkg61vqykQ-8S_6Nq7g0qVvSyeGsHpXhgv_MixF8C0YO8J6lfUFfw79eML-Kf7T4GgIYPAi4GGnl2Cw4bP0zd7jwCJcb5A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘明"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 55
+    },
+    {
+      "seq": 4,
+      "title": "新时代中国古代文学的体系建构与时代使命",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK290uturAzXCS3XviMuSRyxEQ6RLN0J3j-U0_Zh6cXqA8IHGQT-hOB4md9b51YSbrebwNy2I6mjOiovDt4WwnJqIzk8o1UBoSAm1h_Y82s3nNApFCkILTCBHBnjVjyzg-0SlSC7dj7jG8-_CCjcLoLAx29NsuJ4UmQpct5Uv1-Yvw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马世年"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 180
+    },
+    {
+      "seq": 5,
+      "title": "以学术原创推进古代文学自主知识体系的构建",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2fh3g-YCCaf09rz5hUT_pY2kEJXnqX3slsF3swm-5616qKjOwaKWh2gROz9hAklk4O8KFDE6QnR9QjxdDOaAnyJbvirufMfaV2Bt9ZXc8bTQjKifzRIZMaw7laNBjCFNSZs4QqstS_RFO_rEkJZ-b6IYKTdWIWx4Ro1E65PyCMng==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李浩"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 93
+    },
+    {
+      "seq": 6,
+      "title": "朝向古代文学研究的“向上一路”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2fh3g-YCCaf09rz5hUT_pY2kEJXnqX3slsF3swm-5616qKjOwaKWh2Y5eNHdtuDXzxDspl0uFfUO7V5sBwX81_frOKwG4FfC-EVjttdRje-K2sdfBAsu6P3roxqJYFK8jKbtcV_vq1wnbUdbGxSs96-8A0zNZ7FlVqnb1Ti8yHng==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "张伯伟"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 162
+    },
+    {
+      "seq": 7,
+      "title": "建构中国小说评点自主知识体系",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2fh3g-YCCaf09rz5hUT_pY2kEJXnqX3slsF3swm-5616qKjOwaKWh2m6J0aMLrTUb3tgeDhGEdcnm7_kI7B07Nrvbh8w8Tl1eUpvi2_pxkFTC9tPCFwCZd-FvyqDytYjQ2akxWMSy1-7XMy8e5XrcrFnGIJQNuOEWAg1k6jp8mbQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "谭帆"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 96
+    },
+    {
+      "seq": 8,
+      "title": "灰烬中的辉煌：两晋南北朝文人的洛阳想象与文化变迁",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1I5bMoqQdkfLbAhaH7fjBZkoWS4k6AKorq-D_NiH-7gJmnbQfC8CGLOMc0eDJUGr1ueWJ--Ku2bBm60nnSyyTLyD8zUKlfPcYL7-szd5R3ZOLVrnMx9sE04WJiVHfsio0xrU7OCJrnnH0r6JLKFlyZSY8XndwIeMQDOjf3mYKgqw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "吴沂澐"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 348
+    },
+    {
+      "seq": 9,
+      "title": "《毛诗正义》中所见祭后诗人作颂说论考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1I5bMoqQdkfLbAhaH7fjBZkoWS4k6AKorq-D_NiH-7gJmnbQfC8CGLSI-bbALCo8M9WDuJFeTXRV6i2siIOogIfvB4D2XuFSwYGsvMm09hne1sQo61LZtiO0cHfMEYyCFsAZmz22_DnuH4rhEf8va5TK940DUWpxVOAo11QrwbeA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "余越"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 169
+    },
+    {
+      "seq": 10,
+      "title": "唐代“诗文”概念形成考论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1hqw4bIkxoKUwb7qJ0kb2kglulqTC2YC242on0e4-on7ATFfCZO6NMyx6lBkM_vdF4ifSfo7ljJ-O5_3KgTOe_B8bPVLsDlUZhxSAyc5SaxFjdDWg_GrnhWw-JJK8S-CmaO3VIjTk66Z6vdAX-VWJRkRxsxyHyzYChcHfhYfRY7g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "金鑫"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 167
+    },
+    {
+      "seq": 11,
+      "title": "新见十二卷青柯亭本《聊斋志异》考实",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1hqw4bIkxoKUwb7qJ0kb2kglulqTC2YC242on0e4-on7ATFfCZO6NMoj0FwpYmxMNWpmne0_A38bOIhT62ZAYj7njQ4rfuUznqlLvmHpjdP7ifCuvb8VBwEPExGCNDUrr_3uc0_xMhprzbV9R1KXlIQRj4APbGam68ED7_TEHIgQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "邓雷"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 109
+    },
+    {
+      "seq": 12,
+      "title": "中古《史记》《汉书》异文的发生、选择与其评价——略论“班马异同”的文字面向",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK07Q_YTjD_PacMyq0zitv1I4ygTC7bd2iTDLDLg5fEK4m7snXvgqA6RWhpDvZr-qcHvz2oFZ608vOMe-sr-sK9-fArS1YKo6j8uKuzdHrIiyzv7FZ6X_AGyeMooHGRQHHnFCG-2CcOAWaqVpouUSappPR1AEogdnPiAUz1nwp4gKw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陆骏元"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 235
+    },
+    {
+      "seq": 13,
+      "title": "多元文化与数智时代视域下的唐代文学研究——“中国唐代文学学会第二十三届年会暨唐代文学国际学术研讨会”综述",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK07Q_YTjD_PacMyq0zitv1I4ygTC7bd2iTDLDLg5fEK4m7snXvgqA6RBO3BLPnZ4PfTo18oSR3G4e6hrR2Q4XUhqjZUmBVhiCktClVFSxVbFWWZp4MuKMvs7fP_7hdJvlOb1qqYNI24MSjQAfknt4ljN7g-2ARfjYRTuBVp3hRwZw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "海滨"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-05-15",
+      "cited": 0,
+      "downloads": 50
+    },
+    {
+      "seq": 14,
+      "title": "出土文献视域下颛顼成为楚、秦先祖的过程",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK07Q_YTjD_PacMyq0zitv1I4ygTC7bd2iTDLDLg5fEK4sdzP_u7FXUVsIuoXyVUgiuIck4rHPAxi-H1XFWrDKuOMC-DtYQRT-nHJNIZpkgALnf2_r32WnZCDon9aNpSfErYLdTiYXcJNivgOr5lgFDxT3Nf8iLljSPf-_FChsrnhg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘全志"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 369
+    },
+    {
+      "seq": 15,
+      "title": "入南之青齐豪族与南齐前期“崇古”文风的形成——基于“中间地带”的地域特点",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0baF-IuMApSn4m73hcBNcUrR7kQfbN1dMmXV0K2wlUJU5ZfhTdZ1ZEs4d75HohobuFsjkWyK0U7i56M2SPq1rf0ybTb7yFrHyWhPbE6YszjIwAvuSnguMxpgJd9mFlNJvaMFOYCUBJ7WC5ETDCAIrkAPa1ft7pQSfBGJHxltU90A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李伟"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 294
+    },
+    {
+      "seq": 16,
+      "title": "唐诗实字句的思维原理、创作机制与句法功能演变",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0baF-IuMApSn4m73hcBNcUrR7kQfbN1dMmXV0K2wlUJU5ZfhTdZ1ZEkMfTacKysvzciqHbMJTCNmDBf1P70P6EJLXoC1GI2ik-WWMPWC0Mo0mIOKmpb6kMgu70B0PQR_fN9TJPAoFmj5GsO-kG2FwA1e_xV2g5Q94YaNOCzuCuJQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "黄琪"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 374
+    },
+    {
+      "seq": 17,
+      "title": "词科制度对宋人记文文体观念的建构",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0baF-IuMApSn4m73hcBNcUrR7kQfbN1dMmXV0K2wlUJU5ZfhTdZ1ZEykcON1fyuAFj4NwLjkGz7XCUNvAl03KmxYRcajCcDzJrNAizFVeEI_WbcibAkKg22asPY0JAIzgaNuwhJBfKsMSTI1aoqPxM9-97IBIFr6dLXShS6oBH8A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李法然"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 338
+    },
+    {
+      "seq": 18,
+      "title": "制度观念与命官制诰的文本生成——以北宋中后期散体制诰为中心",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3_RIqKEhBq8GUea8HU8AI44B8Q5LmjD4YlNqed-DMbfg6W1Qb4ufz_0QGdMFrPbMg3WegDLxDMclY3O5eezEuk2DtV636ZseX0RRa3SrLHuofblW60VoJ36ZygT_N-fRjK0tOKsxSs49oR5oKo1fZpgeVxK6nj0z_uvawnryRKbw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陆嘉琳"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 333
+    },
+    {
+      "seq": 19,
+      "title": "演戏立规违规罚戏：戏曲与古代民间社会治理",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3_RIqKEhBq8GUea8HU8AI44B8Q5LmjD4YlNqed-DMbfg6W1Qb4ufz_gdXMtYyWYxK1JEBxWHXUs822nFxUOOjABBMHCYxxirCxxAXWaTrGJfCLqTZOtvfwzMOuCi4GR1LuW8lYCDRmF1REC9EdznUrWOEpKd7da2_KFnWKh1EPXQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "车文明"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 249
+    },
+    {
+      "seq": 20,
+      "title": "走向动态、多元、立体的宋代文学研究——“中国宋代文学学会(筹)第十四届年会暨宋代文学国际学术研讨会”综述",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2vHaUv0p7W1ui4F-bXRP6JnfTJIpKX3MyL8lC_ZJFLvyicYEwS30B6B30-fOWhJCBNmXhKhZw_hfP_QdsMrG4jjUxqNYIVUbGk-DbvYTNMrPtdCBKRBOu7UwmF7LC7w-EEYSklZ_mff_W6jd4vIRn8R3SpQkfuP-AgNngiQ6u2xQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘雨筝"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 190
+    },
+    {
+      "seq": 21,
+      "title": "守望魂脉 赓续根脉：探索中国文学新实践",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2K9lO0e8iECArFj66EkDsACMmsiKmYU44Vnz6zzwxy3btDBR5FnTHgI_oDufM7ffof6t3CMWD96K3MtlEnQldfKaKL-FJBP8zxrLnRA19u4bGTzkSWd7bYPA5MzSbCJ_YlwEYo02MID7Acwt7pVymviMtWtHF20sa613dlDFJ9dQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "王确"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 164
+    },
+    {
+      "seq": 22,
+      "title": "中国古代文学自主知识体系建构与经典重塑",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0Qi3v8t8VFRxdxEIahgyg630X9ZnXrAp9IyujZyRBfkSjHeXq3jcmxZTBViylNMiZ2EXE4G3QGCChQPuLvG5nsiBnoROsk3SRFRcF7radV78sxQEdrjoffx77YJTyUfX98ihUstm2fgkJgWsutusXRyGqGeWIk4cqxjb-L5CIb0Q==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "左东岭"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 519
+    },
+    {
+      "seq": 23,
+      "title": "文士的超越精神与“适情诗学”",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3t5YD8K_4yxQFBuBRXc1oYW7tgPGFd9c6xjqAjVXxDeJMUYANnxsfNN0UmSbO3nD_ZOp_bSuLWXCbp1IGkbge6GCIpZH_25am3y5F3qZMN5_S26DVNcRKhRGyB44W8JM66-jeMzogK3TDWVx5gd0z7C6ahTIvQpGjYbjO6OqHjXw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "周兴陆"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 711
+    },
+    {
+      "seq": 24,
+      "title": "“江南”意境：唐宋词的渊薮及其意义",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK12SjCJkgjgBaAPXdQmlodP19ClRtLkdJKFLOvhSk9Uh0PDZICMxNl8BX1G7MQWJdfQW-C6l1blxTyF2madWSzQfmppirSWboE7pod5i-pKhBBBlWw6pQZ6gOGUOd4Y1qkLQe2QEoURS7sa_-KCt1ZSM06errAoif0zEz0J1n7mqQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "沈松勤"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 807
+    },
+    {
+      "seq": 25,
+      "title": "《西游记》杂剧作者及相关问题综考",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0XWZI1bXziQdxY72s8hKZKkk9E82p_XMwqqLWCBWllfs4wdTNILgjYNIqdsTK6qQYXlXrl-37fLjfA2wO5T7oUDQb99hQiVFBHExpG5aAR-kaYdVEsydeHO-CB8uNLPI1WefBQ0ZBRTdZ3OPQOgxJdnt2fzBjvCL6yGE0EoMzVaw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "李小龙"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 383
+    },
+    {
+      "seq": 26,
+      "title": "从经术到辞章——词乐视域下《楚辞》“四上”字谱说的衍变",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1RhaHmqGwXQUjtEfWZM2U7meCwL0h1Doe1G6HuhElM6bSPBWPJSxOu7WeuPPFP3Fi5RKdA3RrcHv34NN7tvxZuf_CrbJRXM-dDye3q0UwWAJK3AnOwf4j3w5ZK7Yjx9bZiyaml6KsXFmWu14Y4FEqsaSskA2HIqOmsa6kvsSCbLA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "吴晨骅"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 257
+    },
+    {
+      "seq": 27,
+      "title": "误读与重构：李贺诗评中的“理”之聚讼",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1RhaHmqGwXQUjtEfWZM2U7meCwL0h1Doe1G6HuhElM6bSPBWPJSxOu8vh1FGsghEuAz0erp3ZI0btXLSj4CimxZFQLa7x_pc4yXGlrGu_KPNCh8od0Ol819cx5uZ2DsVFQXvJS2Gs0FuVbbtc7lg1zczYuwCinqsohaTrwg11kbQ==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "戚昊"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 367
+    },
+    {
+      "seq": 28,
+      "title": "“数字化时代的中华文学史料研究暨《中华文学史料》编委扩大会”综述",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0apR3AVud00yn5CuZ2NRGF0BHrWJPXx1DCw9fkn0kGVG9GZ8_YZzRzlFCxGIY_vtz_sTfIUKhGu36lOXsDGhRCYZTDpozfuJeY2SjAdLNRtibha5oqLdb2_JpaNV2kg135azXT_yMp0cOABInXxzDwrGCqf-2KlClGjCORY7Jh-g==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马铁浩"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 84
+    },
+    {
+      "seq": 29,
+      "title": "建构当代中国文学理论话语体系的基本路径",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Uos5hADkHcErdGMJxYeoyuC9iFcYgnFRw_DjEaIHOcAMzcqeQuE4pHa0vHsiPh5bGLpKbmUF4xYRv3ToZS4ovk5AnNIAIsllgWsUN2_573oleaj7cWkxIsaUZ-TA8buojJvrV3nu-gVYqQ9yuSOq_9SpSnb9EDeuPORIWoGZjsA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "苏宏斌"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-03-15",
+      "cited": 0,
+      "downloads": 222
+    },
+    {
+      "seq": 30,
+      "title": "《列朝诗集》刻本研究：以陆贻典校本为中心",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0YkEhxFH5NiRpToMKQnd2l1w9RhEWOQ57YT4ldFYSpiJo1hCcTlEpBFMkxA9DG0xLHo0o-D445d-6xA2N9U9iKNWH82AW8ooHHVLD01xhuVeFJg5brryDg9OY8-vfHJcvilFPo_AHsoIM5s-v45NbSt1id6-6Wg_Yrirb7JQvRAw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "都轶伦"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 400
+    },
+    {
+      "seq": 31,
+      "title": "清末民初“小说教育”视阈下的小说传播生态",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0YkEhxFH5NiRpToMKQnd2l1w9RhEWOQ57YT4ldFYSpiJo1hCcTlEpBRQyVwrko8ofCp2aDoP9ST4W58jHyckWnIHLcOOP-AqTmfvup4L17B_KsgPwxqVKKrjLFGG078nofmBK_HJfVGR8NmY-8jtzoRmbZT66UekxJ-hScmPV8dA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "陈才训"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 435
+    },
+    {
+      "seq": 32,
+      "title": "私学“通隐”化与晋宋文运转型",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1e94SOPVgI4GJapVt40unHkNzfbvhN-Uy_8yLeQ5vEwHsBnsgOQt88Y0keFIeGxVmXAAkFCiVyCESpvBgXyeUC9IlxN_ErusBXp2KPlOfjr2f29VelBjLbkeTD0qNB-l8j9nlEV8lkh2H_jgAVTMpW8C4zQ8Ytb65HU0XgFzmoTw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "孙宝"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 383
+    },
+    {
+      "seq": 33,
+      "title": "宋代御苑的礼制功能及其诗歌书写",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3Z0hNXrSuazCKLzlBiPOMEUisbYXui4JNuv5WwALsYliSquNczbOvKf9lLDNuKaAL8T5hLRgB0_6G-lF9CmrMDqF-EZpix_X2PXRd-VEKNvSRviFxDnDkipPPhCVev3OgO8x8QqvIP-CxpJ0G--3-ahCXs5PWsRgG6HDQDookDJA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "马东瑶"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 541
+    },
+    {
+      "seq": 34,
+      "title": "南岩同久：宋代生辰寿诗的兴起与演进",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1NZVBRNXSSGgysvPyygyvtvIMS1fwqDJxbBO0g8Ip2D3XL_hsOL7RreBPz2Kt2kL0eNdb_6f_j-GLolqYJW8jvTdXYDlQxuiJwXsY61YQQqb2eNrLqdU3ORzIn8KZvAaY_1jLEqpMeELhpChqJIJZQ36pd1R_pGF7eTt00ZwqUUg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘成国"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 451
+    },
+    {
+      "seq": 35,
+      "title": "“时事文艺”:明代通俗文艺与时事传播",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1NZVBRNXSSGgysvPyygyvtvIMS1fwqDJxbBO0g8Ip2D3XL_hsOL7Rr06kQg9tNLeulHe-jPUYaThFY1y9vmlpC7fJSsfhj0wsgduZIan0o66V_FkJvFRRAma5sKhfHO-H-U8M4cT37ZC1Q8kwNMD1gRSWoHKVGcpLkcX8UY6Rurg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "胡丹"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 372
+    },
+    {
+      "seq": 36,
+      "title": "“两创”视域下的中国古代文学研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1Sg0r3GW2XC6oTHeM4RuJMu2DwZnDs_psT04qhDaHwZkf3k0Z1BlZDOsXjXwjTjQ8Krytx4dZYw-qahMHx3VHyjtRVSbRxrtyoqAFNDRFVhXmJ8z9F-0o3sGJPGDR0mS9bY1C02OYvCqaPdBtVKbBBtCTxd9yXdZeQYginiX-hVA==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "卢盛江"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 444
+    },
+    {
+      "seq": 37,
+      "title": "从“街谈巷语”到“可资谈柄”——探寻中国古代小说生成、特征与功能的一条草蛇灰线",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0cntYilbsYafUPWttphbJWuppgsxCtslXecIuUp6vNLtAw-UezJHNH0C-LA1BLaN_GJMwtKs4qJDWgc789bZUOCL9bMogfXeGgSNA-FVjz2E05dPzJhfIs3pLdnlDdOM6s1AYW8Mi4CW3V7uDDhkLledqbi6_-Vqld2PaC0c7Kcw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘勇强"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 752
+    },
+    {
+      "seq": 38,
+      "title": "“赋中有诗”:先唐赋中的五、七字句与五、七言诗",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK0cntYilbsYafUPWttphbJWuppgsxCtslXecIuUp6vNLtAw-UezJHNHqFO8dnVDAkgXqaEQhvlf-rfuEz7GM6GRx5hqXLA5kwrey5Eg4gMfZLrtKW8QWLtm5XscEY_BRggfSuKl8tGImHkVTmdgMnUnaaBEkk0zqhKiymhF9MIohg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "冯晓玉"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 532
+    },
+    {
+      "seq": 39,
+      "title": "先唐“陇头水”意象的地理研究",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK1KttHUNdgAKHPvFT3rmG2xFrAu_hfjv9PIOMb6snAlZLqO78jG7INM0VsvmCQ5krHc4QJIwMi7-wlpge0Xcq28hDAuxf9X00TLc_P0sj1m627pcWBOAxLdLxvqHiwsc14gOBofhiCL5b3My3xwY6k5qmoTdAuAUIJSG6iRel0sqg==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "徐帆"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 508
+    },
+    {
+      "seq": 40,
+      "title": "李商隐诗的日常诗美与情感网络建构——兼论“诗缘情而绮靡”的晚唐回响",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3gr4cfBBbgdxjigd6owJVpObU2uUX9FZwKZ7fZzcawxxR_vRHIoS_mX4yG61yyrSC6Z1HEW2lSHe_Ty8dIrpvd6Wg1lsg8XWKSMput9HRbEw1bLSTI80tQ0H4F_-so7-i_GorkcE1fYo0-t6P5jLVn7ZlpfwNNkg108dXr6b2J4A==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "米彦青"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 1022
+    },
+    {
+      "seq": 41,
+      "title": "方苞《古文约选》“义法”新论",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3bvPJAArzk4vE3-LIojXBwh6SYz7YbUGRNkY31AXSKXNu-mhHpWxtP2eHWp5wzj9NFjBFgGcMKTyj33PxQXh3vPVLeoej4xuLX1pilAB38rw_FMho0DZesC2zF-5oLYBrSPrnsxC7C-t_ky-Vj8XBs1aodsUlfqnX7_w0u-i9rgw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "刘宏辉"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 346
+    },
+    {
+      "seq": 42,
+      "title": "早期南曲谱的发展演进与曲体建构——以蒋孝《旧编南九宫谱》为中心",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK2HE1sssHjS8mXg0z_pp8uYr7GLS5XtOFhGcS6YH3XZvvTsSI-hpBrZP4IAauqLJGao59YkWsL2vcYFjaS9s4Y0uX5KRjOiNONj1KbS6upnsMCi-JUwQiWqbBC1rNNEc8X63Xob6HaF78R3DE_UD0po8LMCnWKAWoOOHlZ_mgc-Sw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "钟钰婷"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 228
+    },
+    {
+      "seq": 43,
+      "title": "阜阳简牍《儒家者言》《春秋事语》与古《说苑》考——兼及《说苑》释疑",
+      "url": "https://kns.cnki.net/kcms2/article/abstract?v=mX7l0X-lXK3dvWq7cKFQrgs0kARAnzT31nTChwGXcFbd0o5JD6SfJX7eVAEOOVME9wj_SD8XQ2sHyqLbfoDDCHydT8vvvmaMUikiunvaNBNgfKMLQWq5VSqeuS2jqkICBqbVzlVHrbUbZDPQjig4RxHhaEt75CXXrsu2VuJMd8ycf2KNlSYJDw==\u0026uniplatform=NZKPT\u0026language=CHS",
+      "authors": [
+        "廖群"
+      ],
+      "source": "文学遗产",
+      "year": 2026,
+      "issue": "2026-01-15",
+      "cited": 0,
+      "downloads": 306
+    }
+  ]
+}
