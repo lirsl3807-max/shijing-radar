@@ -19,3 +19,4 @@ Thumbs.db
 # Logs
 *.log
 radar_output.txt
+data/go.zip
