@@ -2,7 +2,6 @@
 # ===========================================
 # 定时任务：每周一早上 8:00（北京时间）运行搜索
 # 手动触发：在 GitHub Actions 页面点击 "Run workflow"
-# 推送触发：推送到 main 分支时自动部署
 
 name: 学术雷达
 
@@ -11,14 +10,10 @@ on:
     # 北京时间每周一 08:00 → UTC 时间每周日 00:00
     - cron: "0 0 * * 0"
   workflow_dispatch:  # 支持手动触发
-  push:
-    branches: [main]
 
-# 权限：允许写入 Pages 和拉取代码
+# 权限：允许推送代码
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 # 同一时间只跑一个工作流
 concurrency:
@@ -26,11 +21,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # ─── 任务1：搜索文献 ──────────────────────────────────
+  # ─── 搜索并更新文献数据 ──────────────────────────────
   search:
     runs-on: ubuntu-latest
-    outputs:
-      has_new_data: ${{ steps.check_data.outputs.has_new_data }}
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -49,82 +42,17 @@ jobs:
         run: |
           go install github.com/ExquisiteCore/cnki-search/cmd/cnki@latest
           echo "cnki 安装路径: $(which cnki)"
-          cnki --version || true
-
-      - name: 备份旧数据
-        id: backup
-        run: |
-          if [ -f data/academic_radar_data.json ]; then
-            cp data/academic_radar_data.json data/academic_radar_data_old.json
-            echo "旧数据已备份"
-          else
-            echo "无旧数据"
-          fi
 
       - name: 运行雷达搜索
         id: search
         run: |
           python3 radar.py 2>&1 | tee radar_output.txt
-        env:
-          # 在 GitHub Actions 中，cnki 通过 go install 安装到 PATH 中
-          PYTHONIOENCODING: utf-8
 
-      - name: 检查数据是否有更新
-        id: check_data
-        run: |
-          if [ ! -f data/academic_radar_data_old.json ]; then
-            echo "has_new_data=true" >> "$GITHUB_OUTPUT"
-          elif ! diff -q data/academic_radar_data.json data/academic_radar_data_old.json > /dev/null 2>&1; then
-            echo "has_new_data=true" >> "$GITHUB_OUTPUT"
-            echo "数据有变化！"
-          else
-            echo "has_new_data=false" >> "$GITHUB_OUTPUT"
-            echo "数据无变化，跳过提交"
-          fi
-          rm -f data/academic_radar_data_old.json
-
-      - name: 提交更新数据
-        if: steps.check_data.outputs.has_new_data == 'true'
+      - name: 提交更新数据到 main 分支
         run: |
           git config user.name "学术雷达 Bot"
           git config user.email "radar-bot@shijing.dev"
           git add data/academic_radar_data.json
           TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
-          git commit -m "🔄 学术雷达自动更新 — ${TIMESTAMP}" || echo "无变化可提交"
+          git commit -m "🔄 学术雷达自动更新 — ${TIMESTAMP}" || echo "数据无变化，跳过提交"
           git push
-
-  # ─── 任务2：部署到 GitHub Pages ──────────────────────
-  deploy:
-    needs: search
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
-
-      - name: 准备 Pages 内容
-        run: |
-          # 创建部署目录
-          mkdir -p _site
-          # 复制核心文件
-          cp index.html _site/
-          cp -r data _site/
-          # 复制文档（可选：作为网站参考文档）
-          cp 诗经学关键词列表.md _site/keywords.md || true
-          cp CSSCI期刊列表_文学_语言学_历史学_2025-2026.md _site/journals.md || true
-          echo "部署文件列表:"
-          ls -la _site/
-
-      - name: 配置 Pages
-        uses: actions/configure-pages@v5
-
-      - name: 上传 Pages 产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-      - name: 部署到 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
