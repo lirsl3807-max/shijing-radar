@@ -3,13 +3,14 @@
 academic_radar v1 — 学术雷达：从知网搜索诗经学文章
 策略：按关键词搜索 + 按目标期刊过滤
 """
-import json, subprocess, sys, time, os
+import json, subprocess, sys, time, os, re
+import shutil
+import zhconv
 sys.stdout.reconfigure(encoding="utf-8")
 
 CNKI_BIN = r"C:\Users\llo\Desktop\cnki-search\cnki.exe"
 
 # 在 Linux/macOS 或 PATH 环境下，自动查找 cnki 命令
-import shutil
 if not os.path.exists(CNKI_BIN):
     CNKI_BIN = shutil.which("cnki") or CNKI_BIN
 
@@ -20,6 +21,13 @@ if not os.path.exists(ANYSEARCH_CLI):
 if not os.path.exists(ANYSEARCH_CLI):
     ANYSEARCH_CLI = shutil.which("anysearch") or ANYSEARCH_CLI
 
+
+# ── 繁简转换 ──────────────────────────────────────────
+def to_simplified(text):
+    """将文本中的繁体字转为简体，确保关键词匹配不受繁简影响"""
+    return zhconv.convert(text, 'zh-hans')
+
+# ── 期刊列表 ──────────────────────────────────────────
 # 目标期刊（CSSCI 文学/语言学/历史学/考古学 正刊 + 扩展版 + 集刊）
 # 来源：CSSCI（2025-2026）期刊列表
 TARGET_JOURNALS = [
@@ -226,8 +234,8 @@ def search_abstract_web(title, authors):
 
 
 def check_relevance(title):
-    """检查标题是否与诗经相关（使用扩展关键词列表）"""
-    t = title.replace("\udca7", "").strip()
+    """检查标题是否与诗经相关（使用扩展关键词列表，繁简通配）"""
+    t = to_simplified(title.replace("\udca7", "").strip())
     for kw in RELEVANCE_KEYWORDS:
         if kw in t:
             # 特殊情况："诗序"可能是普通诗歌序言而非《毛诗序》
@@ -264,7 +272,7 @@ def search_all():
             # 检查是否匹配目标期刊
             matched_journal = None
             for j in TARGET_JOURNALS:
-                if j in src:
+                if to_simplified(j) in to_simplified(src):
                     matched_journal = j
                     break
             if not matched_journal:
@@ -373,7 +381,8 @@ def search_all():
 
         n = 0
         for p in data.get("results", []):
-            if jname not in p.get("source", ""):
+            src_simplified = to_simplified(p.get("source", ""))
+            if to_simplified(jname) not in src_simplified:
                 continue
             title = p["title"].replace("\udca7", "").strip()
             if not check_relevance(title):
@@ -444,11 +453,11 @@ if __name__ == "__main__":
     unique = []
     seen_titles = set()
     for a in articles:
-        # 标题归一化：去除《》内所有空格，统一标点
+        # 标题归一化：去除《》内空格 + 繁转简，保证去重准确
         import re
         t = a["title"]
         t = re.sub(r'《([^》]*)》', lambda m: '《' + m.group(1).replace(' ', '').replace(' ', '') + '》', t)
-        t = t.replace("\udca7", "").strip()
+        t = to_simplified(t.replace("\udca7", "").strip())
         if t not in seen_titles:
             seen_titles.add(t)
             a["title"] = t
