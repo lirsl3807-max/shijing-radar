@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **诗经学文献雷达 (Academic Radar)** — 自动从知网 (CNKI) 追踪 CSSCI 期刊中的《诗经》研究动态。
 
-- 覆盖 **95 种 CSSCI 期刊**（文学/语言学/历史学/考古学/社科综合/扩展版/集刊）
+- 覆盖 **111 种 CSSCI 期刊**（文学/语言学/历史学/考古学/社科综合/扩展版/集刊，全部在知网可搜）
 - 使用用户指定的精确关键词列表过滤（标题匹配，非简单期刊匹配）
 - 当前（2026 上半年）已收录 **21 篇** 相关论文，**全部有摘要**
 - 部署在 GitHub Pages，手机可访问
@@ -47,18 +47,31 @@ academic_radar/
 ```
 radar.py 运行流程:
   策略1: 15 个关键词 × cnki search → 按期刊过滤 → 按标题关键词过滤 → 收集文章
-  策略2: 26 个重点期刊 × cnki search (按 source 字段) → 按标题关键词过滤 → 收集文章
+  策略2: 111 种期刊 × cnki search (按 source 字段，分批20个/组，防限流) →
+         按标题关键词过滤 → 收集文章（含重试机制）
       ↓
   fetch_article_details() → search_abstract_web() → 
     对每篇文章，用 AnySearch 搜索论文标题，从网页搜索结果中提取摘要
       ↓
-  去重 → 保存为 data/academic_radar_data.json
+  标题归一化（去《》内空格 + 繁转简）→ 去重 →
+  保存为 data/academic_radar_data.json
       ↓
   index.html 读取 JSON → 展示（摘要可展开/折叠）
 
 cnki-search 子进程调用:
   cnki search <关键词> --field=topic --type=journal --from=2026 --to=2026 --sort=date --size=100 --format=json
+  cnki search <期刊名> --field=source --type=journal --from=2026 --to=2026 --sort=date --size=100 --format=json
 ```
+
+## 限流防护
+
+策略2 搜索 111 种期刊时，每 20 个期刊休息 5 秒，防止知网 KNS8S API 因请求过快限流。如果某期刊搜索返回 0 条，自动重试一次（等待 3 秒）。
+
+## 去重逻辑
+
+最终去重时做两级归一化：
+1. **空格归一化**：去除《》内部所有空格（`《 诗经 》` → `《诗经》`，`《毛诗 正义》` → `《毛诗正义》`）
+2. **繁简归一**：繁体标题转简体后再比较（`詩經` → `诗经`）
 
 ## 搜索与过滤逻辑详解
 
@@ -85,6 +98,7 @@ cnki-search 子进程调用:
 
 - `国风` 匹配 `中国风` → 已排除（如"被操纵的主体性"）
 - `诗序` 匹配谢灵运诗歌序言 → 已排除（如"论谢灵运诗的制题艺术"）
+- `诗谱` 匹配 `新诗谱` → 已排除（胡亮《新诗谱》是现代诗论，非郑玄《诗谱》）
 
 ### 收录历史
 
@@ -111,14 +125,13 @@ cnki-search 子进程调用:
 
 ## 期刊名称注意事项
 
-部分 CSSCI 集刊在知网上的名称与官方名称不同，已修正：
+所有 111 种目标期刊均已确认在知网可通过 `--field=source` 搜索（`经典与解释` 因知网无此刊已移除）。名称已修正的：
 
-| CLAUDE.md 中的名称 | 知网实际名称 |
-|---|---|
-| 中国诗学 | 中国诗学研究 |
-| 中国古代文学理论研究 | 古代文学理论研究 |
-
-其他集刊（历史文献研究、唐宋历史评论、经学文献研究集刊、古典文献研究、文献语言学、中国文字研究、汉语史研究集刊、诸子学刊、中国语言文学研究、中国美学研究、文学理论前沿、中国经学等）在知网有导航页，但 SOURCE 字段搜索可能不匹配，待确认知网内部使用的准确名称。
+| CLAUDE.md 中的名称 | 知网实际名称 | 状态 |
+|---|---|---|
+| 中国诗学 | 中国诗学研究 | ✅ 已验证 |
+| 中国古代文学理论研究 | 古代文学理论研究 | ✅ 已验证 |
+| 其他集刊命名 | 知网使用与CSSCI基本一致 | ✅ 全部可搜 |
 
 ## 关键命令
 
@@ -137,6 +150,9 @@ git push
 
 # cnki-search 手动测试
 "C:\Users\llo\Desktop\cnki-search\cnki.exe" search 诗经 --format=json
+
+# 测试某个期刊是否在知网可搜（不限年份）
+"C:\Users\llo\Desktop\cnki-search\cnki.exe" search "中国经学" --field=source --size=3 --format=json
 ```
 
 ## 已知问题和限制
@@ -153,11 +169,15 @@ git push
 
 摘要获取依赖 AnySearch skill，这在 GitHub Actions 上不可用。如果将来要自动部署，需要在 GitHub Actions 上使用不同的摘要获取方式或跳过摘要步骤。
 
-### 3. 知网详情页完全不可用
+### 3. 集刊2026年卷尚未出版
+
+大部分 CSSCI 集刊（中国经学、简帛、古典文献研究、经学文献研究集刊、文献语言学 等）为年刊/半年刊，2026年卷尚未出版。知网可搜到往年文章，但 2026 年暂无数据。预计下半年至年底陆续上线。
+
+### 4. 知网详情页完全不可用
 
 `cnki detail`、Python requests、Playwright/Chrome 所有方式均被知网详情页的验证码拦截。故 `paper_keywords`、`institutions`、`doi`、`fund` 等字段暂无法获取。
 
-### 4. cnki-search 二进制路径
+### 5. cnki-search 二进制路径
 
 - Windows: `C:\Users\llo\Desktop\cnki-search\cnki.exe`
 - Linux: `shutil.which("cnki")`
