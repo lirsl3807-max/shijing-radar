@@ -7,8 +7,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **诗经学文献雷达 (Academic Radar)** — 自动从知网 (CNKI) 追踪 CSSCI 期刊中的《诗经》研究动态。
 
 - 覆盖 **95 种 CSSCI 期刊**（文学/语言学/历史学/考古学/社科综合/扩展版/集刊）
-- 使用 **41 个核心 + 26 个补充关键词** 搜索
-- 当前（2026 上半年）已收录 **28 篇** 相关论文，**全部有摘要**
+- 使用用户指定的精确关键词列表过滤（标题匹配，非简单期刊匹配）
+- 当前（2026 上半年）已收录 **18 篇** 相关论文，**全部有摘要**
 - 部署在 GitHub Pages，手机可访问
 
 ## 技术栈
@@ -16,7 +16,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | 组件 | 说明 |
 |------|------|
 | **[cnki-search](https://github.com/ExquisiteCore/cnki-search)** | Go 编写的知网搜索 CLI，逆向 KNS8S HTTP API |
-| **radar.py** (Python) | 搜索编排脚本——多关键词 + 多期刊策略 |
+| **radar.py** (Python) | 搜索编排脚本——两阶段搜索（关键词+期刊）+ 网络摘要获取 |
 | **AnySearch (skill)** | 网络搜索引擎，用于通过论文标题搜索摘要（替代被知网屏蔽的 detail 接口） |
 | **server.py** (Python) | 简易本地 HTTP 服务器（端口 8081） |
 | **index.html** (HTML+JS) | 前端展示——搜索、筛选、摘要展开/折叠 |
@@ -33,7 +33,7 @@ academic_radar/
 ├── data/
 │   └── academic_radar_data.json   # 搜索结果数据（含摘要）
 ├── .github/workflows/
-│   └── radar.yml               # GitHub Actions 工作流
+│   └── radar.yml               # GitHub Actions 工作流（暂不能正常使用）
 ├── .nojekyll                   # 必须存在，禁用 Jekyll Pages 处理
 ├── .gitignore
 ├── 诗经学关键词列表.md            # 完整关键词文档
@@ -46,8 +46,8 @@ academic_radar/
 
 ```
 radar.py 运行流程:
-  策略1: 15 个关键词 × cnki search → 按期刊过滤 → 收集文章
-  策略2: 24 个重点期刊 × cnki search → 按关键词过滤 → 收集文章
+  策略1: 15 个关键词 × cnki search → 按期刊过滤 → 按标题关键词过滤 → 收集文章
+  策略2: 26 个重点期刊 × cnki search (按 source 字段) → 按标题关键词过滤 → 收集文章
       ↓
   fetch_article_details() → search_abstract_web() → 
     对每篇文章，用 AnySearch 搜索论文标题，从网页搜索结果中提取摘要
@@ -60,20 +60,67 @@ cnki-search 子进程调用:
   cnki search <关键词> --field=topic --type=journal --from=2026 --to=2026 --sort=date --size=100 --format=json
 ```
 
+## 搜索与过滤逻辑详解
+
+### 收录标准
+
+文章必须同时满足两个条件才会被收录：
+1. **期刊匹配**：文章来源必须在 `TARGET_JOURNALS` 列表中（95 种 CSSCI 期刊）
+2. **标题关键词匹配**：文章标题必须包含用户指定的诗经学关键词之一
+
+### 关键词列表
+
+`RELEVANCE_KEYWORDS` 包含以下类别（精确匹配，非子串匹配）：
+
+- 诗经基本名称：诗经
+- 三家诗：三家诗、鲁诗、齐诗、韩诗、韩诗外传
+- 毛诗系统：毛诗、毛传、郑笺、孔疏、诗序、诗谱、毛诗正义、毛诗传笺
+- 诗学概念：风雅颂、赋比兴、诗教、诗言志、四始、六义、正变
+- 专题研究：诗乐关系、诗礼关系、诗经用韵、诗经名物、诗经地理、诗经历史
+- 出土文献：安大简·诗经、阜阳汉简·诗经、上博简·孔子诗论、清华简·周公之琴舞、郭店简·性自命出、海昏侯墓·诗经、敦煌诗经、熹平石经、出土诗论
+- 历代诗经学著作：诗集传、吕氏家塾读诗记、诗缉、诗疑、诗经通论、诗经原始、诗毛氏传疏、毛诗传笺通释、诗三家义集疏、三家诗辑佚
+- 补充关键词：诗经用韵、诗经名物、诗经地理、诗经历史、诗经学史、安大简、阜阳汉简、海昏侯、敦煌诗经、石经、出土诗论、诗乐、诗礼、国风、雅颂、二南、采诗、献诗、删诗、孔门诗教、先秦诗学、汉唐诗经、性自命出、郭店简、上博简、清华简
+
+### 关键词误匹配已处理的特例
+
+- `国风` 匹配 `中国风` → 已排除（如"被操纵的主体性"）
+- `诗序` 匹配谢灵运诗歌序言 → 已排除（如"论谢灵运诗的制题艺术"）
+
+### 收录历史
+
+- 最初：28 篇（策略1未做标题过滤，混入无关文章）
+- 当前：18 篇（增加标题过滤 + 修正关键词误匹配）
+
+## 摘要获取机制
+
+不使用 `cnki detail`（知网详情页反爬极强，验证码无法绕过）。改为通过 **AnySearch CLI 搜索论文标题**，从网页搜索结果片段中提取摘要文本。
+
+- 当前覆盖率：**18/18 篇（100%）**
+- 即使搜不到摘要，文章仍会收录（abstract 字段留空）
+- 依赖 AnySearch skill（位于 `~/.claude/skills/anysearch/`），不存在时自动跳过
+
+## 期刊名称注意事项
+
+部分 CSSCI 集刊在知网上的名称与官方名称不同，已修正：
+
+| CLAUDE.md 中的名称 | 知网实际名称 |
+|---|---|
+| 中国诗学 | 中国诗学研究 |
+| 中国古代文学理论研究 | 古代文学理论研究 |
+
+其他集刊（历史文献研究、唐宋历史评论、经学文献研究集刊、古典文献研究、文献语言学、中国文字研究、汉语史研究集刊、诸子学刊、中国语言文学研究、中国美学研究、文学理论前沿、中国经学等）在知网有导航页，但 SOURCE 字段搜索可能不匹配，待确认知网内部使用的准确名称。
+
 ## 关键命令
 
 ```bash
-# 运行完整搜索（搜索论文 + 获取摘要）
+# 运行完整搜索（搜索论文 + 获取摘要，约 10 分钟）
 python3 radar.py
-
-# 仅运行搜索（不获取摘要，更快）
-python3 radar.py 2>&1 | head -50
 
 # 启动 Web 服务器
 python3 server.py
 # 访问 http://localhost:8081
 
-# 推送到 GitHub Pages（开 VPN）
+# 推送到 GitHub Pages（需开 VPN）
 git add .
 git commit -m "更新说明"
 git push
@@ -84,55 +131,44 @@ git push
 
 ## 已知问题和限制
 
-### 1. GitHub Actions 搜索返回 0 条结果（核心未解决 Blocking Issue）
+### 1. GitHub Actions 搜索返回 0 条结果（核心未解决）
 
-**原因：** GitHub Actions 运行在 ubuntu-latest（美国 Azure 机房），知网 CNKI 屏蔽海外 IP 地址。
+**原因：** GitHub Actions（ubuntu-latest，美国 Azure 机房）IP 被知网屏蔽。
 
-**影响：** 空的 `academic_radar_data.json` 被 commit 到 main 分支，覆盖本地真实数据。
+**当前变通方案：** 在本地手动运行 `python3 radar.py`，然后 git push。
 
-**当前变通方案：** 在本地（Windows 电脑，国内 IP）手动运行 `python3 radar.py`，然后 git push 到 GitHub。
+**长期方案（未实施）：** 配置自托管 GitHub Actions Runner（Windows 电脑国内 IP），需配置 VPN 分流规则。
 
-**长期解决方案（尚未实施）：**
-- **方案 A（推荐）：配置自托管 GitHub Actions Runner**。将 Windows 电脑注册为 self-hosted runner，在本地执行搜索（国内 IP 可访问知网）。需要配置 VPN 分流规则（github.com/api.github.com 走代理，kns.cnki.net 直连）。
-- **方案 B：Windows 任务计划程序。** 用 Task Scheduler 定时在本地跑搜索 + git push。
+### 2. AnySearch 依赖
 
-### 2. 摘要获取机制
+摘要获取依赖 AnySearch skill，这在 GitHub Actions 上不可用。如果将来要自动部署，需要在 GitHub Actions 上使用不同的摘要获取方式或跳过摘要步骤。
 
-目前不使用 `cnki detail`（知网详情页反爬极强，验证码无法绕过）。改为通过 **AnySearch CLI 搜索论文标题**，从网页搜索结果片段中提取摘要文本。
+### 3. 知网详情页完全不可用
 
-**本地运行**时，依赖 AnySearch skill（位于 `~/.claude/skills/anysearch/`）。如果该 skill 不存在，摘要获取步骤自动跳过，搜索结果不含摘要。
+`cnki detail`、Python requests、Playwright/Chrome 所有方式均被知网详情页的验证码拦截。故 `paper_keywords`、`institutions`、`doi`、`fund` 等字段暂无法获取。
 
-**数据字段说明：** `radar.py` 目前为每篇文章保存以下字段：
-- `title`, `authors`, `journal`, `journal_full`, `year` — 来自知网搜索
-- `cited`, `downloads`, `url` — 来自知网搜索
-- `abstract` — 来自网络搜索结果
-- `paper_keywords`, `institutions`, `doi`, `fund` — **暂未获取**（知网详情页被拦截，这些字段留空）
+### 4. cnki-search 二进制路径
 
-### 3. cnki-search 二进制路径
-
-- Windows: 硬编码为 `C:\Users\llo\Desktop\cnki-search\cnki.exe`
-- Linux/macOS: 通过 `shutil.which("cnki")` 自动发现
-- GitHub Actions: 通过 `go install github.com/ExquisiteCore/cnki-search/cmd/cnki@latest` 实时编译
+- Windows: `C:\Users\llo\Desktop\cnki-search\cnki.exe`
+- Linux: `shutil.which("cnki")`
+- GitHub Actions: `go install github.com/ExquisiteCore/cnki-search/cmd/cnki@latest`
 
 ## GitHub 配置
 
-### 仓库
-- URL: `https://github.com/lirsl3807-max/shijing-radar`
-- 已设置 GitHub Pages（legacy 模式，main 分支根目录）
-- 已配置个人访问令牌 (PAT) 用于 git push 认证
-
-### GitHub Actions（radar.yml）
-当前工作流因 #1 (知网屏蔽) 无法正常获取数据。修复前不应启用自动调度。
+- 仓库: `https://github.com/lirsl3807-max/shijing-radar`
+- GitHub Pages: legacy 模式，main 分支根目录
+- 已配置 PAT 用于 git push 认证
+- GitHub Actions 因知网 IP 屏蔽暂不可用
 
 ## 浏览器偏好
 
-使用 Google Chrome，路径为：
-`C:\Users\llo\AppData\Local\Google\Chrome\Application\chrome.exe`
+使用 Google Chrome：`C:\Users\llo\AppData\Local\Google\Chrome\Application\chrome.exe`
 
-## 开发偏好
+## 开发环境
 
-- 用户使用 Windows 11 系统，Git Bash 终端
-- Python 3.12+ 环境，Playwright 1.60.0 已安装
-- Go 1.24 环境（用于编译 cnki-search）
-- 搜索数据限定在 2026 年
-- 用户需要 VPN 才能访问 GitHub
+- Windows 11 + Git Bash
+- Python 3.12+
+- Go 1.24（编译 cnki-search）
+- Playwright 1.60.0 已安装
+- 仅搜索 2026 年数据
+- 访问 GitHub 需 VPN
