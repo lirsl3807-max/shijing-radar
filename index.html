@@ -24,8 +24,16 @@ body { font-family: -apple-system, "Noto Sans SC", "Microsoft YaHei", sans-serif
 .article .meta .authors { color: #444; }
 .article .meta .journal { display: inline-block; background: #f0e6e6; color: #8B0000; padding: 1px 8px; border-radius: 3px; font-size: 12px; margin-left: 6px; }
 .article .meta .badge { display: inline-block; background: #e8f0e8; color: #2d6a2d; padding: 1px 8px; border-radius: 3px; font-size: 12px; margin-left: 6px; }
+.article .meta .fund-badge { display: inline-block; background: #e8e0f0; color: #5a2d8a; padding: 1px 8px; border-radius: 3px; font-size: 12px; margin-left: 6px; }
 .article .footer { margin-top: 8px; font-size: 12px; color: #999; }
 .article .footer span { margin-right: 15px; }
+.article .abstract { margin-top: 10px; padding: 12px; background: #fafafa; border-radius: 6px; font-size: 13.5px; line-height: 1.7; color: #444; border-left: 3px solid #CD5C5C; }
+.article .abstract .abs-text { overflow: hidden; }
+.article .abstract .abs-text.collapsed { max-height: 60px; }
+.article .abstract .abs-toggle { display: inline-block; margin-top: 6px; color: #8B0000; cursor: pointer; font-size: 12px; font-weight: 500; }
+.article .abstract .abs-toggle:hover { text-decoration: underline; }
+.article .paper-kws { margin-top: 6px; }
+.article .paper-kws .kw { display: inline-block; background: #f0f0f0; color: #666; padding: 0 6px; border-radius: 3px; font-size: 11px; margin-right: 4px; }
 .filter-bar { padding: 20px 0; display: flex; gap: 10px; flex-wrap: wrap; }
 .filter-bar input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; width: 200px; }
 .filter-bar select { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; background: white; }
@@ -125,22 +133,46 @@ function filterArticles() {
   }
   empty.style.display = 'none';
 
-  list.innerHTML = filtered.map(a => {
+  list.innerHTML = filtered.map((a, idx) => {
     const url = a.url || '#';
+    const absId = `abs-${idx}`;
+    const hasAbs = a.abstract && a.abstract.length > 0;
+    const absTruncated = hasAbs && a.abstract.length > 100;
     return `<div class="article">
       <div class="title"><a href="${url}" target="_blank">${escapeHtml(a.title)}</a></div>
       <div class="meta">
         <span class="authors">${escapeHtml(a.authors || '佚名')}</span>
         <span class="journal">${escapeHtml(a.journal)}</span>
         ${a.cited > 0 ? `<span class="badge">被引 ${a.cited}</span>` : ''}
+        ${a.fund ? '<span class="fund-badge">基金</span>' : ''}
       </div>
+      ${hasAbs ? `<div class="abstract">
+        <div class="abs-text ${absTruncated ? 'collapsed' : ''}" id="${absId}">${escapeHtml(a.abstract)}</div>
+        ${absTruncated ? `<span class="abs-toggle" onclick="toggleAbs('${absId}')">展开全文 ▾</span>` : ''}
+      </div>` : ''}
       <div class="footer">
         <span>📰 ${escapeHtml(a.journal_full || a.journal)}</span>
         <span>📅 ${a.year || ''}</span>
         ${a.downloads > 0 ? `<span>⬇ ${a.downloads}次</span>` : ''}
+        ${a.paper_keywords && a.paper_keywords.length > 0 ? `<span>🏷 ${a.paper_keywords.join('、')}</span>` : ''}
+        ${a.institutions && a.institutions.length > 0 ? `<span>🏛 ${a.institutions.join('; ')}</span>` : ''}
+        ${a.doi ? `<span>DOI: ${escapeHtml(a.doi)}</span>` : ''}
       </div>
     </div>`;
   }).join('');
+}
+
+function toggleAbs(id) {
+  const el = document.getElementById(id);
+  const toggle = document.getElementById(id + '-toggle');
+  if (!el) return;
+  if (el.classList.contains('collapsed')) {
+    el.classList.remove('collapsed');
+    if (toggle) toggle.textContent = '收起全文 ▴';
+  } else {
+    el.classList.add('collapsed');
+    if (toggle) toggle.textContent = '展开全文 ▾';
+  }
 }
 
 function escapeHtml(s) {

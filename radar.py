@@ -13,6 +13,13 @@ import shutil
 if not os.path.exists(CNKI_BIN):
     CNKI_BIN = shutil.which("cnki") or CNKI_BIN
 
+# AnySearch CLI 路径（用于网络搜索摘要）
+ANYSEARCH_CLI = os.path.expanduser(r"~\AppData\Roaming\Claude\skills\anysearch\scripts\anysearch_cli.py")
+if not os.path.exists(ANYSEARCH_CLI):
+    ANYSEARCH_CLI = os.path.expanduser(r"~\.claude\skills\anysearch\scripts\anysearch_cli.py")
+if not os.path.exists(ANYSEARCH_CLI):
+    ANYSEARCH_CLI = shutil.which("anysearch") or ANYSEARCH_CLI
+
 # 目标期刊（CSSCI 文学/语言学/历史学/考古学 正刊 + 扩展版 + 集刊）
 # 来源：CSSCI（2025-2026）期刊列表
 TARGET_JOURNALS = [
@@ -139,6 +146,83 @@ def run_cnki_search(query, field="topic", year_from=2026, year_to=2026, size=100
         return json.loads(raw)
 
 
+def search_abstract_web(title, authors):
+    """通过网络搜索论文摘要
+
+    用论文标题在搜索引擎中查找，从搜索结果片段中提取摘要。
+    需要安装 AnySearch CLI 工具。
+    """
+    if not os.path.exists(ANYSEARCH_CLI):
+        return None
+
+    # 清理标题中的特殊字符
+    clean_title = title.replace("\udca7", "").replace('《', '').replace('》', '').strip()
+    first_author = authors.split(';')[0].strip() if authors else ''
+
+    # 多轮搜索策略
+    queries = [
+        f"{clean_title} {first_author} 摘要",
+        f'"{title}" 摘要',
+    ]
+
+    best_abstract = ""
+    for query in queries:
+        if len(query) > 150:
+            query = query[:150]
+
+        cmd = [sys.executable, ANYSEARCH_CLI, "search", query]
+        try:
+            r = subprocess.run(cmd, capture_output=True, timeout=25)
+        except:
+            continue
+
+        output = r.stdout.decode("utf-8", errors="replace")
+        if not output:
+            continue
+
+        import re
+
+        # 模式1: JSON "abstracts": "..." （sciencechain 等结构化数据）
+        for m in re.finditer(r'["\']abstracts?["\']\s*:\s*["\']([^"\']{50,})["\']', output):
+            txt = m.group(1).strip()
+            if len(txt) > len(best_abstract):
+                best_abstract = txt
+
+        # 模式2: 搜索结果项中的 "摘要：" 文本
+        for m in re.finditer(r'摘\s*[要：:]\s*([^\n]{30,}(?:\n[^\n]+){0,8})', output):
+            txt = re.sub(r'<[^>]+>', '', m.group(1))
+            txt = re.sub(r'https?://\S+', '', txt)
+            txt = re.sub(r'\s+', ' ', txt).strip()
+            if len(txt) > 50 and len(txt) > len(best_abstract):
+                # 过滤掉明显不是摘要的内容
+                if not any(kw in txt for kw in ['JavaScript', 'function', 'var ']):
+                    best_abstract = txt
+
+        # 模式3: 搜索结果项的长文本描述（>100字）
+        items = re.split(r'### \d+\.', output)
+        for item in items:
+            lines = [l.strip() for l in item.split('\n')
+                     if l.strip() and not l.startswith('- **URL') and not l.startswith('#')]
+            for line in lines:
+                # 跳过标题行
+                if len(line) < 80 or '《' not in line:
+                    continue
+                text = re.sub(r'https?://\S+', '', line).strip()
+                if len(text) > 80 and len(text) > len(best_abstract):
+                    if any(kw in text for kw in ['摘要', 'Abstract', '研究', '分析', '本文', '论述', '探讨', '提出']):
+                        best_abstract = text
+
+        # 如果已经找到不错的摘要，停止搜索
+        if len(best_abstract) > 100:
+            break
+
+    # 截断
+    if len(best_abstract) > 600:
+        best_abstract = best_abstract[:600]
+
+    return best_abstract if len(best_abstract) > 40 else None
+
+
 def check_relevance(title):
     """检查标题是否与诗经相关（使用扩展关键词列表）"""
     t = title.replace("\udca7", "").strip()
@@ -189,6 +273,11 @@ def search_all():
                 "url": p.get("url", ""),
                 "keyword": kw,
                 "source_api": "知网",
+                "abstract": "",
+                "paper_keywords": [],
+                "institutions": [],
+                "doi": "",
+                "fund": "",
             })
             n += 1
         print(f"命中{data['total_hits']}条, 目标期刊{n}篇")
@@ -229,6 +318,11 @@ def search_all():
                 "url": p.get("url", ""),
                 "keyword": f"期刊_{jname}",
                 "source_api": "知网",
+                "abstract": "",
+                "paper_keywords": [],
+                "institutions": [],
+                "doi": "",
+                "fund": "",
             })
             n += 1
         print(f"总{data['total_hits']}篇, 诗经相关{n}篇")
@@ -237,12 +331,40 @@ def search_all():
     return all_articles
 
 
+def fetch_article_details(articles):
+    """通过网络搜索逐一获取论文摘要"""
+    print("\n获取论文摘要 (通过网络搜索)...")
+    total = len(articles)
+    n_found = 0
+    for i, a in enumerate(articles):
+        title = a.get("title", "")
+        authors = a.get("authors", "")
+        print(f"  [{i+1}/{total}] {title[:40]}...", end=" ", flush=True)
+
+        abstract = search_abstract_web(title, authors)
+        if abstract:
+            a["abstract"] = abstract
+            n_found += 1
+            abs_len = len(abstract)
+            print(f"✅ 摘要{abs_len}字")
+        else:
+            print("⚠️  未找到")
+        # 避免请求过快
+        time.sleep(1)
+
+    print(f"\n摘要获取完成: {n_found}/{total} 篇")
+    return articles
+
+
 if __name__ == "__main__":
     print("=" * 60)
     print("学术雷达 v1 — 诗经学文献追踪")
     print("=" * 60)
 
     articles = search_all()
+
+    # 获取摘要等详情
+    articles = fetch_article_details(articles)
 
     # 去重
     unique = []
@@ -268,7 +390,11 @@ if __name__ == "__main__":
 
     print(f"\n{'=' * 60}")
     print(f"完成！共找到 {len(unique)} 篇")
+    has_abs = sum(1 for a in unique if a.get("abstract"))
+    print(f"其中有摘要: {has_abs} 篇")
+    print()
     for a in unique:
-        print(f"  ✅ [{a['journal']}] {a['authors'][:30]}: {a['title'][:50]}")
+        abs_icon = "📄" if a.get("abstract") else "❌"
+        print(f"  {abs_icon} [{a['journal']}] {a['authors'][:30]}: {a['title'][:50]}")
     print(f"\n已保存: {path}")
 
